@@ -76,7 +76,7 @@ study_label_map <- c(
   "MRC 1968"           = "MRC 1968 (1960)",
   "Rose GA 1965"       = "Rose GA 1965 (c.1963)",
   "Dayton S 1969"      = "Dayton S 1969 (1959)",
-  "Vijayakumar M 2016" = "Vijayakumar M 2016 (c.2012)",
+  "Vijayakumar M 2016" = "Vijayakumar M 2016 (c.2009)",
   "Watts GF 1992"      = "Watts GF 1992 (1988)"
 )
 
