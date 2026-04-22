@@ -62,41 +62,6 @@ So which is it?
 :::
 
 
----
-
-
-### The Forest Plot
-
-::: {.caption_gray}
-
-*from Yamada et al. (2025), Figure 3. Forest plots of saturated fatty acid reduction trials on all-cause mortality.*
-
-:::
-
-![](assets/Yamada_mortality.png){width=90% fig-align="center"}
-
-::: {.smaller_table}
-::: {.fragment}
-
-*Heterogeneity* (I²): Statistical heterogeneity = the portion of between-study variation in observed effect estimates that **cannot** be explained by within-study sampling error alone. Higher = more study variation
-
-::: {.smaller3}
-
-- I² asks how much the study results differ from each other beyond what would be expected from random sampling error alone.
-  1. Calculate how far each study's estimate is from the pooled estimate
-  2. Weight those differences by each study’s precision, then add them up.
-  3. Check whether the studies disagree more than would be expected from ordinary random sampling error, given each study’s own margin of error, assuming they were all estimating the same true effect.
-  4. I² expresses the excess disagreement as a percentage of the total observed disagreement.
- 
-:::
-:::
-::: {.fragment}
-
-It is not Clinical/methodological heterogeneity (differences/variation in study population, interventions, outcomes definitions...etc). 
-
-:::
-
-:::
 
 ---
 
@@ -138,8 +103,9 @@ It is not Clinical/methodological heterogeneity (differences/variation in study 
 ::: {.incremental}
 
 - Included 17 RCTs total (fewer per outcome/intervention)
-- Overall, reducing or modifying saturated fat intake trended toward lower all-cause mortality, cardiovascular mortality, nonfatal MI, and stroke
-  - but for all four outcomes, the pooled confidence intervals included **no effect**.
+- Found no significant reduction in:
+  - all-cause mortality, cardiovascular mortality, nonfatal myocardial infarction, stroke
+- However: for nonfatal MI, replacement by PUFA -> significant reduction
 - In 5 year period, estimated absolute effect varied by baseline cardiovascular risk. With 'predefined thresholds':
   - In low cardiovascular risk groups, the **point estimate** suggests an "unimportant effect". 
   - In high cardiovascular risk groups, the **point estimate** suggests an "important effect".
@@ -154,6 +120,41 @@ It is not Clinical/methodological heterogeneity (differences/variation in study 
 :::
 :::
 
+---
+
+
+### The Forest Plot
+
+::: {.caption_gray}
+
+*from Yamada et al. (2025), Figure 3. Forest plots of saturated fatty acid reduction trials on all-cause mortality.*
+
+:::
+
+![](assets/Yamada_mortality.png){width=90% fig-align="center"}
+
+::: {.smaller_table}
+::: {.fragment}
+
+*Heterogeneity* (I²): Statistical heterogeneity = the portion of between-study variation in observed effect estimates that **cannot** be explained by within-study sampling error alone. Higher = more study variation
+
+::: {.smaller3}
+
+- I² asks how much the study results differ from each other beyond what would be expected from random sampling error alone.
+  1. Calculate how far each study's estimate is from the pooled estimate
+  2. Weight those differences by each study’s precision, then add them up.
+  3. Check whether the studies disagree more than would be expected from ordinary random sampling error, given each study’s own margin of error, assuming they were all estimating the same true effect.
+  4. I² expresses the excess disagreement as a percentage of the total observed disagreement.
+ 
+:::
+:::
+::: {.fragment}
+
+It is not Clinical/methodological heterogeneity (differences/variation in study population, interventions, outcomes definitions...etc). 
+
+:::
+
+:::
 
 ---
 
@@ -165,17 +166,18 @@ It is not Clinical/methodological heterogeneity (differences/variation in study 
 
 | Year | Review | Core frame | Result | Benefit? |
 |-|--|---|----|-|
-| 2010 | **Mozaffarian et al.** | PUFA replacing SFA; RCT meta-analysis. | Lower CHD events when PUFA replaced SFA. | **Yes** |
-| 2011 | **Hooper et al.** | Reduced/modified fat; not SFA-only. | Lower CVD events; no clear all-cause or CVD mortality benefit. | **Yes** |
-| 2013 | **Ramsden et al.** | Sydney Diet Heart reanalysis + linoleic acid trial meta-analysis. | No overall CVD benefit; Sydney showed **higher** all-cause, CVD, and CHD mortality. | **No** |
-| 2014 | **Schwingshackl & Hoffmann** | Secondary prevention; reduced/modified fat. | No significant benefit for mortality, CVD events, or MI. | **No** |
-| 2015 | **Hooper et al.** | SFA-specific Cochrane review. | Lower combined CVD events; no clear mortality benefit. | **Yes** |
-| 2017 | **Sacks et al.** | AHA review of SFA replacement trials. | Lower CVD incidence when SFA replaced with unsaturated fat, esp. PUFA. | **Yes** |
-| 2020 | **Hooper et al.** | Updated SFA-specific Cochrane review. | Lower combined CVD events; little or no mortality benefit. | **Yes** |
-| 2025 | **Yamada et al.** | SFA-restriction RCT meta-analysis. | No significant effect on CVD and all-cause mortality,MI, or coronary events. | **No** |
-| 2025 | **Steen et al.** | Risk-stratified review of reduced/modified SFA RCTs. | Little / no benefit in low-risk groups; possible benefit high-risk, especially with PUFA replacement. | **Yes** |
+| 2010 | [**Mozaffarian et al.**](https://pubmed.ncbi.nlm.nih.gov/20351774/) | PUFA replacing SFA; RCT meta-analysis. | Lower CHD events when PUFA replaced SFA. | **Yes** |
+| 2011 | [**Hooper et al.**](https://pubmed.ncbi.nlm.nih.gov/21735388/) | Reduced/modified fat; not SFA-only. | Lower combined CVD events; no clear all-cause or CVD mortality benefit. | **Yes** |
+| 2013 | [**Ramsden et al.**](https://pubmed.ncbi.nlm.nih.gov/23386268/) | Sydney Diet Heart reanalysis + linoleic acid trial meta-analysis. | No overall CVD benefit; Sydney showed higher all-cause, CVD, and CHD mortality. | **No** |
+| 2014 | [**Schwingshackl & Hoffmann**](https://pubmed.ncbi.nlm.nih.gov/24747790/) | Secondary prevention; reduced/modified fat. | No significant benefit for mortality, CVD events, or MI. | **No** |
+| 2015 | [**Hooper et al.**](https://pubmed.ncbi.nlm.nih.gov/26068959/) | SFA-specific Cochrane review. | Lower combined CVD events; no clear mortality benefit. | **Yes** |
+| 2017 | [**Hamley**](https://pubmed.ncbi.nlm.nih.gov/28526025/) | Replacing SFA with mostly n-6 PUFA; RCT meta-analysis. | No clear reduction in CHD events, CHD mortality, or total mortality in adequately controlled trials. | **No** |
+| 2020 | [**Hooper et al.**](https://pubmed.ncbi.nlm.nih.gov/32428300/) | Updated SFA-specific Cochrane review. | Lower combined CVD events; little or no mortality benefit. | **Yes** |
+| 2025 | [**Yamada et al.**](https://pubmed.ncbi.nlm.nih.gov/40416032/) | SFA-restriction RCT meta-analysis. | No significant effect on CVD mortality, all-cause mortality, MI, or coronary events. | **No** |
+| 2025 | [**Steen et al.**](https://pubmed.ncbi.nlm.nih.gov/41397264/) | Risk-stratified review of reduced/modified SFA RCTs. | Little or no benefit in low-risk groups; possible benefit in high-risk groups, especially with PUFA replacement. | **Yes** |
 
 :::
+
 
 ---
 
@@ -189,10 +191,11 @@ Why?
 
 - which trials to include
 - which *version* of trials to include
+- which replacement nutrient and how they are classified
 - at what level of detail / subgroup
   - length of trial, age of participants, risk profile, primary / secondary prevention, dietary replacement 
-- specific outcomes
-  - heart attack, heart attack death, stroke, any coronary event, all-cause death
+- specific outcomes and how they are classified
+  - heart attack, heart attack death, stroke, cardiovascular death, any coronary event, all-cause death
 
 :::
 :::
@@ -205,10 +208,10 @@ Why?
 
 | Pub year | Start year | Trial | N | Duration | Population | Comparator | SFA change | Hard outcomes | Trans-fat issue | Major caveat |
 |-|-:|---|-:|--|---|---|--|--|--|---|
-| 1965 | NR | [**Rose / St Mary’s**](https://pubmed.ncbi.nlm.nih.gov/14288105/) | 80 | 1.5–1.7 y avg, 2yr study | Men with angina or post-MI | Corn oil or olive oil + fat restriction vs usual diet | NR | Limited | Unclear* | Tiny 3-arm trial; SFA not measured |
-| 1966 | 1956 | [**Oslo Diet-Heart**](https://pubmed.ncbi.nlm.nih.gov/5228820/) | 412 | 5 y | Men with prior MI | Low-SFA advice + soy oil/fish vs usual diet | NR | Yes | Unclear* | SFA not directly measured; fish/cod-liver cointervention |
+| 1965 | c.1963 | [**Rose / St Mary’s**](https://pubmed.ncbi.nlm.nih.gov/14288105/) | 80 | 1.5–1.7 y avg, 2yr study | Men with angina or post-MI | Corn oil or olive oil + fat restriction vs usual diet | NR | Limited | Unclear* | Tiny 3-arm trial; SFA not measured |
+| 1966 | 1956 | [**Oslo Diet-Heart**](https://pubmed.ncbi.nlm.nih.gov/5228820/) | 412 | 5 y | Men with prior MI | Low-SFA advice + soy oil/fish vs usual diet | NR | Yes | Unclear* | SFA not directly measured; soy/fish cointervention |
 | 1968 | 1960 | [**MRC Soybean Oil**](https://pubmed.ncbi.nlm.nih.gov/4175085/) | 393 | 3.8 y mean | Men after first MI | Soybean oil + fat restriction vs usual diet | NR | Limited | Unclear* | Soy-oil supplement trial; SFA not measured |
-| 1969 | 1959 | [**LA Veterans Administration**](https://www.ahajournals.org/doi/10.1161/01.CIR.40.1S2.II-1) | 846 | ? | Semi-institutionalized men, mixed CHD status | Whole diet replacing about two-thirds of SFA with unsaturated fat | -10.2% | Yes | Probable | Partial feeding / institutional setting |
+| 1969 | 1959 | [**LA Veterans Administration**](https://www.ahajournals.org/doi/10.1161/01.CIR.40.1S2.II-1) | 846 | max 8y, unclear avg | Semi-institutionalized men, mixed CHD status | Whole diet replacing about two-thirds of SFA with unsaturated fat | -10.2% | Yes | Probable | Partial feeding / institutional setting |
 | 1978 | 1973 | [**Oxford Retinopathy**](https://pubmed.ncbi.nlm.nih.gov/629924/) | 249 | 9.3 y mean | Newly diagnosed type 2 diabetes | Lower-fat / higher-PUFA diabetic diet vs average diabetic diet | -9.7% | No | Unclear* | Retinopathy trial; deaths not cleanly by arm |
 | 1978 | 1966 | [**Sydney Diet Heart Study**](https://pubmed.ncbi.nlm.nih.gov/727035/) | 458 | 4.3 y mean | Men with prior MI | Safflower oil + safflower margarine vs usual diet | -3.7% | Yes | Probable | LA-specific substitution trial; margarine-era intervention |
 | 1979 | 1959 | [**Finnish Mental Hospital (Men)**](https://pubmed.ncbi.nlm.nih.gov/5652949/) | ~461 | 6 y per arm | Institutionalized middle-aged men without CHD | Hospital SCL diet vs normal hospital diet | NR | Limited | Probable | Non-randomized cluster crossover; open enrollment |
@@ -216,8 +219,8 @@ Why?
 | 1983 | 1959 | [**Finnish Mental Hospital (Women)**](https://pubmed.ncbi.nlm.nih.gov/6840954/) | ~357 | 6 y per arm | Institutionalized middle-aged women without CHD | Hospital SCL diet vs normal hospital diet | NR | Limited | Probable | Non-randomized cluster crossover; open enrollment |
 | 1989 | 1983 | [**DART**](https://pubmed.ncbi.nlm.nih.gov/2571009/) | 2033 | 2 y | Men recovering from MI | Lower-fat / higher-P:S advice vs usual advice | -4.0% | Yes | Unclear* | Factorial trial; only 2 years |
 | 1989 | 1968 | [**Minnesota Coronary Survey**](https://pubmed.ncbi.nlm.nih.gov/2643423/) | 9057 | Avg 1 y, max 4.5 y | Institutionalized men and women without CHD | Corn oil + corn-oil margarine vs control diet | -9.1% | Yes | Probable | Open enrollment; average exposure short |
-| 1992 | NR | [**STARS**](https://pubmed.ncbi.nlm.nih.gov/1347091/) | ~60 | 3 y | Men with established CHD | Low-SFA diet vs usual care | -7.0% | Sparse | Unclear | Tiny trial; angiography-focused |
-| 1994 | NR | [**Black**](https://pubmed.ncbi.nlm.nih.gov/8145782/) | 133 | 2 y | People with non-melanoma skin cancer | Low-fat diet vs usual diet | -6.2% | Sparse | Low | Not a CVD trial |
+| 1992 | 1988 | [**STARS**](https://pubmed.ncbi.nlm.nih.gov/1347091/) | ~60 | 3 y | Men with established CHD | Low-SFA diet vs usual care | -7.0% | Sparse | Unclear | Tiny trial; angiography-focused |
+| 1994 | c.1992 | [**Black**](https://pubmed.ncbi.nlm.nih.gov/8145782/) | 133 | 2 y | People with non-melanoma skin cancer | Low-fat diet vs usual diet | -6.2% | Sparse | Low | Not a CVD trial |
 | 1997 | 1987 | [**Simon**](https://pubmed.ncbi.nlm.nih.gov/9121940/) | 194 | 2 y | Women at high breast-cancer risk | Low-fat diet vs usual diet | -6.1% | No | Low | Feasibility / cancer trial; deaths not clearly by arm |
 | 2001 | 1991 | [**Moy**](https://pubmed.ncbi.nlm.nih.gov/11832672/) | 267 | 2 y | Siblings of early-CHD patients with risk factors | Low-fat counseling vs usual care | -2.9% | Sparse | Low | No deaths; family-risk trial |
 | 2004 | 1988 | [**Ley**](https://pubmed.ncbi.nlm.nih.gov/14739050/) | 176 | 4.1 y mean | Impaired glucose tolerance / high-normal glucose | Reduced-fat program vs usual diet | -3.4% | Sparse | Low | Prediabetes trial; not CVD-primary |
@@ -235,15 +238,15 @@ Why?
 
 | Pub year | Start year | Trial | N | Duration | Population | Comparator | SFA change | Hard outcomes | Trans-fat issue | Major caveat |
 |-|-:|---|-:|--|---|---|--|--|---|----|
-| 1965 | NR | [**Rose / St Mary’s**](https://pubmed.ncbi.nlm.nih.gov/14288105/) | 80 | 1.5–1.7 y avg, 2yr study | Men with angina or post-MI | Corn oil or olive oil + fat restriction vs usual diet | NR | Limited | Unclear* | Tiny 3-arm trial; SFA not measured |
-| 1966 | 1956 | [**Oslo Diet-Heart**](https://pubmed.ncbi.nlm.nih.gov/5228820/) | 412 | 5 y | Men with prior MI | Low-SFA advice + soy oil/fish vs usual diet | NR | Yes | Unclear* | SFA not directly measured; fish/cod-liver cointervention |
+| 1965 | c.1963 | [**Rose / St Mary’s**](https://pubmed.ncbi.nlm.nih.gov/14288105/) | 80 | 1.5–1.7 y avg, 2yr study | Men with angina or post-MI | Corn oil or olive oil + fat restriction vs usual diet | NR | Limited | Unclear* | Tiny 3-arm trial; SFA not measured |
+| 1966 | 1956 | [**Oslo Diet-Heart**](https://pubmed.ncbi.nlm.nih.gov/5228820/) | 412 | 5 y | Men with prior MI | Low-SFA advice + soy oil/fish vs usual diet | NR | Yes | Unclear* | SFA not directly measured; soy oil/fish cointervention |
 | 1968 | 1960 | [**MRC Soybean Oil**](https://pubmed.ncbi.nlm.nih.gov/4175085/) | 393 | 3.8 y mean | Men after first MI | Soybean oil + fat restriction vs usual diet | NR | Yes | Unclear* | Soy-oil supplement trial; SFA not measured |
-| 1969 | 1959 | [**LA Veterans Administration**](https://www.ahajournals.org/doi/10.1161/01.CIR.40.1S2.II-1) | 846 | ? | Semi-institutionalized men, mixed CHD status | Whole diet replacing about two-thirds of SFA with unsaturated fat | -10.2% | Yes | Probable | Partial feeding / institutional setting |
+| 1969 | 1959 | [**LA Veterans Administration**](https://www.ahajournals.org/doi/10.1161/01.CIR.40.1S2.II-1) | 846 | max 8y, unclear avg | Semi-institutionalized men, mixed CHD status | Whole diet replacing about two-thirds of SFA with unsaturated fat | -10.2% | Yes | Probable | Partial feeding / institutional setting |
 | 2013 | 1966 | [**Sydney Diet Heart Study** (Ramsden)](https://pubmed.ncbi.nlm.nih.gov/23386268/) | 458 | 4.3 y mean | Men with prior MI | Safflower oil + safflower margarine vs usual diet | -3.7% | Yes | Probable | LA-specific substitution trial; margarine-era intervention |
 | 1989 | 1983 | [**DART**](https://pubmed.ncbi.nlm.nih.gov/2571009/) | 2033 | 2 y | Men recovering from MI | Lower-fat / higher-P:S advice vs usual advice | -4.0% | Yes | Unclear | Factorial trial; only 2 years |
 | 1989 | 1968 | [**Minnesota Coronary Survey**](https://pubmed.ncbi.nlm.nih.gov/2643423/) | 9057 | Avg 1 y, max 4.5 y | Institutionalized men and women without CHD | Corn oil + corn-oil margarine vs control diet | -9.1% | Yes | Probable | Open enrollment; average exposure short |
-| 1992 | NR | [**STARS**](https://pubmed.ncbi.nlm.nih.gov/1347091/) | ~60 | 3 y | Men with established CHD | Low-SFA diet vs usual care | -7.0% | Sparse | Unclear | Tiny trial; angiography-focused |
-| 2016 | 2009 | [**Amrita / Vijayakumar**](https://pubmed.ncbi.nlm.nih.gov/27543472/) | 200 | 2 y | Patients with stable CAD | Sunflower oil vs coconut oil | NR | Sparse | Low | Oil-vs-oil trial under standard medical care; not a real SFA-reduction trial |
+| 1992 | 1988 | [**STARS**](https://pubmed.ncbi.nlm.nih.gov/1347091/) | ~60 | 3 y | Men with established CHD | Low-SFA diet vs usual care | -7.0% | Sparse | Unclear | Tiny trial; angiography-focused |
+| 2016 | 2009 | [**Amrita / Vijayakumar**](https://pubmed.ncbi.nlm.nih.gov/27543472/) | 200 | 2 y | Patients with stable CAD | Sunflower oil vs coconut oil | NR | Sparse | Low | Oil-vs-oil trial; short; no CVD endpoints |
 
 :::
 
@@ -262,16 +265,16 @@ Used original version of Minnesota (not Ramsden re-evaluation)
 
 | Pub year | Start year | Trial | N | Duration | Population | Comparator | SFA change | Hard outcomes | Trans-fat issue | Major caveat |
 |-|-:|---|-:|--|---|---|--|--|--|---|
-| 1965 | NR | [**Rose / St Mary’s (corn oil)**](https://pubmed.ncbi.nlm.nih.gov/14288105/) | 80 | 1.5–1.7 y avg, 2yr study | Men with angina or post-MI | Corn oil + fat restriction vs usual diet | NR | Limited | Unclear* | Tiny 3-arm trial; SFA not measured |
-| 1965 | NR | [**Rose / St Mary’s (olive oil)**](https://pubmed.ncbi.nlm.nih.gov/14288105/) | 80 | 1.5–1.7 y avg, 2yr study | Men with angina or post-MI | Olive oil + fat restriction vs usual diet | NR | Yes | Unclear* | Tiny 3-arm trial; SFA not measured |
-| 1966 | 1956 | [**Oslo Diet-Heart**](https://pubmed.ncbi.nlm.nih.gov/5228820/) | 412 | 5 y | Men with prior MI | Low-SFA advice + soy oil/fish vs usual diet | NR | Yes | Unclear* | SFA not directly measured; fish/cod-liver cointervention |
+| 1965 | c.1963 | [**Rose / St Mary’s (corn oil)**](https://pubmed.ncbi.nlm.nih.gov/14288105/) | 80 | 1.5–1.7 y avg, 2yr study | Men with angina or post-MI | Corn oil + fat restriction vs usual diet | NR | Limited | Unclear* | Tiny 3-arm trial; SFA not measured |
+| 1965 | c.1963 | [**Rose / St Mary’s (olive oil)**](https://pubmed.ncbi.nlm.nih.gov/14288105/) | 80 | 1.5–1.7 y avg, 2yr study | Men with angina or post-MI | Olive oil + fat restriction vs usual diet | NR | Yes | Unclear* | Tiny 3-arm trial; SFA not measured |
+| 1966 | 1956 | [**Oslo Diet-Heart**](https://pubmed.ncbi.nlm.nih.gov/5228820/) | 412 | 5 y | Men with prior MI | Low-SFA advice + soy oil/fish vs usual diet | NR | Yes | Unclear* | SFA not directly measured; soy oil/fish cointervention |
 | 1968 | 1960 | [**MRC Soybean Oil**](https://pubmed.ncbi.nlm.nih.gov/4175085/) | 393 | 3.8 y mean | Men after first MI | Soybean oil + fat restriction vs usual diet | NR | Yes | Unclear* | Soy-oil supplement trial; SFA not measured |
-| 1969 | 1959 | [**LA Veterans Administration**](https://www.ahajournals.org/doi/10.1161/01.CIR.40.1S2.II-1) | 846 | ? | Semi-institutionalized men, mixed CHD status | Whole diet replacing about two-thirds of SFA with unsaturated fat | -10.2% | Yes | Probable | Partial feeding / institutional setting |
+| 1969 | 1959 | [**LA Veterans Administration**](https://www.ahajournals.org/doi/10.1161/01.CIR.40.1S2.II-1) | 846 | max 8y, unclear avg | Semi-institutionalized men, mixed CHD status | Whole diet replacing about two-thirds of SFA with unsaturated fat | -10.2% | Yes | Probable | Partial feeding / institutional setting |
 | 1989 | 1983 | [**DART**](https://pubmed.ncbi.nlm.nih.gov/2571009/) | 2033 | 2 y | Men recovering from MI | Lower-fat / higher-P:S advice vs usual advice | -4.0% | Yes | Unclear* | Factorial trial; only 2 years |
 | 1989 | 1968 | [**Minnesota Coronary Survey**](https://pubmed.ncbi.nlm.nih.gov/2643423/) | 9057 | Avg 1 y, max 4.5 y | Institutionalized men and women without CHD | Corn oil + corn-oil margarine vs control diet | -9.1% | Yes | Probable | Open enrollment; average exposure short |
-| 1992 | NR | [**STARS**](https://pubmed.ncbi.nlm.nih.gov/1347091/) | ~60 | 3 y | Men with established CHD | Low-SFA diet vs usual care | -7.0% | Sparse | Unclear | Tiny trial; angiography-focused |
-| 1994 | NR | [**Lyon Diet Heart**](https://pubmed.ncbi.nlm.nih.gov/9989963/) | 605 | 27 mo median | Post-MI patients | Mediterranean-type diet vs prudent Western diet | -3.4% | Yes | Low | Multifactor dietary pattern trial, not a clean SFA test, 2ndary prev. |
-| 1994 | NR | [**Black**](https://pubmed.ncbi.nlm.nih.gov/8145782/) | 133 | 2 y | People with non-melanoma skin cancer | Low-fat diet vs usual diet | -6.2% | Sparse | Low | Not a CVD trial |
+| 1992 | 1988 | [**STARS**](https://pubmed.ncbi.nlm.nih.gov/1347091/) | ~60 | 3 y | Men with established CHD | Low-SFA diet vs usual care | -7.0% | Sparse | Unclear | Tiny trial; angiography-focused |
+| 1994 | 1988 | [**Lyon Diet Heart**](https://pubmed.ncbi.nlm.nih.gov/9989963/) | 605 | 27 mo median | Post-MI patients | Mediterranean-type diet vs prudent Western diet | -3.4% | Yes | Low | Multifactor dietary pattern trial, not a clean SFA test, 2ndary prev. |
+| 1994 | c.1992 | [**Black**](https://pubmed.ncbi.nlm.nih.gov/8145782/) | 133 | 2 y | People with non-melanoma skin cancer | Low-fat diet vs usual diet | -6.2% | Sparse | Low | Not a CVD trial |
 | 2004 | 1988 | [**Ley**](https://pubmed.ncbi.nlm.nih.gov/14739050/) | 176 | 4.1 y mean | Impaired glucose tolerance / high-normal glucose | Reduced-fat program vs usual diet | -3.4% | Sparse | Low | Prediabetes trial; not CVD-primary |
 | 2006 | 1993 | [**WHI Dietary Modification**](https://pubmed.ncbi.nlm.nih.gov/16467234/) | 48,835 | 8.1 y mean | Postmenopausal women, with and without baseline CVD | Low-fat pattern with fruit/veg emphasis vs usual diet | -2.9% | Yes | Low | Mostly low-fat / carb-replacement trial, not a clean SFA test |
 | 2006 | 1994 | [**WINS**](https://pubmed.ncbi.nlm.nih.gov/17179478/) | 2437 | 5 y | Women with resected breast cancer | Low-fat counseling vs minimal counseling | -3.4% | Sparse | Low | Not a CVD trial; no combined CVD endpoint |
@@ -296,7 +299,8 @@ Used original 1989 version of Minnesota
 ::: {.smaller2}
 
 Randomized Controlled Trial: \
-*- a study that randomly assigns people to different groups so researchers can compare outcomes as fairly as possible.*
+*- a study that randomly assigns people to different groups so underlying group differences are balanced*
+
 :::
 
 ::: {.smaller2}
@@ -309,14 +313,14 @@ The ideal RCT on saturated fat?
 
 ::: {.incremental}
 
-- exact question being tested
-- who and how many participants are studied
-- duration
+- what exact question is being tested
+- who is being studied, and how many people
+- how long the trial lasts
 - what replaces saturated fat
-- how much the diets differ
-- how to control the diet
-- how adherence is measured
-- what outcomes to measure
+- how different the diets really are
+- how tightly the diets are controlled
+- how adherence is checked
+- which outcomes matter most
 - whether blinding is possible
 
 :::
@@ -328,25 +332,37 @@ The ideal RCT on saturated fat?
 ### Ideal RCT on Saturated Fat Reduction
 
 
-::: {.smaller .incremental}
+::: {.smaller3}
+::: {.incremental}
 
-- A very large number of people randomized to intervention / control diet (but what intervention, what control?)
-- followed for their whole life (or do we want to know if intervening later in life helps?)
-- all food provided and all intake monitored (no sharing)
-- calories and other lifestyle factors tightly matched (how?, do we want this?)
-- twins? 
-- main difference: high saturated fat vs high unsaturated fat (what about different levels?)
-- outcomes: atherosclerosis, heart attacks, strokes, cardiovascular death, and all-cause mortality
+- a very large randomized trial in generally healthy adults
+- long follow-up, > 10 years
+- lower saturated fat in one group, higher saturated fat in the other
+  - replacement nutrient clearly specified
+  - diets meaningfully different in saturated fat intake
+- all or nearly all food provided, with intake closely monitored
+- calories kept similar between groups so the main difference is fat type, not energy intake
+- other major factors kept as similar as possible between groups
+- adherence measured repeatedly and objectively where possible
+- primary outcomes: MI, CHD death, CVD death, all-cause mortality
+- secondary outcomes: stroke, revascularization, atherosclerosis, and related cardiovascular events
+
 
 :::
+::: {.fragment}
 
+- The cleaner the trial, the less it looks like real life (and more unethical). 
+- The more realistic, the harder it is to isolate the effect of saturated fat.
+
+:::
+:::
 
 ---
 
 
 ## Controversial RCTs
 
-- Minnesota Coronary Experiment / Survey
+- Minnesota Coronary Experiment
   - Ramsden re-analysis of 'lost' data
 
 - Sydney Diet Heart Study
@@ -426,7 +442,7 @@ Show Fig 6. Life-table graph
   - Show fig 5, the Kaplan Meier life table graphs of cumulative mortality
 
 - Participants were followed only while in hospital, and only about a quarter of randomized participants remained in the study for a year or longer.
-- "...we are not able to determine if the effects of the high linoleic acid diet varied by smoking status, pre-existing coronary heart disease, psychiatric history, or drug use.
+- "...we are not able to determine if the effects of the high linoleic acid diet varied by smoking status, pre-existing coronary heart disease, psychiatric history, or drug use."
 
 :::
 ::: {.fragment}
@@ -490,7 +506,7 @@ Minnesota Coronary Experiment: the 2016 BMJ paper was broader than Sydney. It wa
 ---
 
 
-### Sydney
+### Sydney Diet Heart Study
 
 ::: {.smaller_table}
 :::{.incremental}
@@ -564,7 +580,7 @@ Same problems as original:
 - Original authors say the study effectively became a multifactorial study. 
   - large changes in smoking, diet, body weight, lifestyle, and physical activity before and after entry.
   - number of subjects and the duration may have been insufficient.
-- prognosis was driven mainly by severity of underlying coronary/myocardial disease, 
+- prognosis was driven mainly by **severity of underlying coronary/myocardial disease**, 
   - dietary variables not showing predictive power in their multivariate analysis.
 - main results borderline significant
 
@@ -626,17 +642,16 @@ Problems:
 - Study group was mixed: some participants already had signs or history of atherosclerotic disease.
 
 - Diet change was not just “less saturated fat”:
-  - cholesterol intake also changed
-  - special oils and margarines were used
+  - cholesterol intake also changed, special oils and margarines were used
   - other parts of the diet may have changed at the same time
 
-- Trans-fat exposure is a concern because margarines from that era were used, but it was not clearly measured.
-
+- Trans-fat exposure, margarines from that era were used, but not clearly measured.
+- different smoking rates per group
 - Study was relatively small for judging hard clinical outcomes.
 
 - Some nonfatal events may have been missed when participants were away from the center.
 
-- Main positive result came from combining several outcomes, not from a clear result on the main endpoint alone.
+- Main positive result came from combining several outcomes, not from the main endpoint alone.
 
 - late in the trial, **excess non-atherosclerotic mortality** in the intervention group
   - driven by small numbers of trauma and carcinoma deaths, 
@@ -741,7 +756,7 @@ Same study, same underlying problems
 | Trial | Main limitations |
 |-|----|
 | Rose / St Mary’s | Tiny 3-arm trial; mixed oil interventions; 80g oil daily dose; SFA change not reported; too short |
-| Oslo Diet-Heart | Actual SFA reduction not measured; also increased fish/cod-liver oil; hard to isolate SFA effect |
+| Oslo Diet-Heart | SFA reduction not measured; increased soy/fish; different smoking rates; hard to isolate SFA effect |
 | MRC Soybean Oil | Soybean-oil supplement trial more than a whole-diet test; modest size; old post-MI setting; short |
 | LA Veterans Admin | Institutional feeding trial; mixed baseline CHD status; broad oil replacement; trans-fat |
 | Sydney Diet-Heart | Safflower oil/margarine trial, not generic SFA reduction; trans-fat; re-evaluation issue |
@@ -761,8 +776,7 @@ Same study, same underlying problems
 
 ### Overall Problems with the RCTs
 
-::: {.smaller2}
-::: {.incremental}
+::: {.smaller3}
 
 - short duration
 - high dropout rate
@@ -777,7 +791,6 @@ Same study, same underlying problems
 - varied interventions, extreme interventions
 - many confounders
 
-:::
 
 :::
 
@@ -838,25 +851,57 @@ Which is more informative?
 - Result: a more precise but biased summary estimate
   - we are more confidently wrong
 
-
-
 :::
 
 ::: {.fragment}
 
-**Saturated Fat RCTs:**
+**Saturated Fat RCTs on hard endpoints:**
 
 :::
 ::: {.incremental}
 
-- No individual trial comes close to a clean, adequately powered, adequately long unbiased test of SFA reduction on **hard outcome**s.
+- No individual trial is a clean, adequately powered, adequately long unbiased test of SFA reduction on **hard outcome**s.
 - No meta-analysis can fix that.
 
 :::
 
 :::
 
-# Stop Doing Meta-anlayses on these RCTs
+
+
+
+# More Meta-anlayses on these RCTs will not help
+
+---
+
+### Signal in the Noise
+
+::: {.smaller2}
+
+::: {.incremental}
+
+- Even with all the problems, is there any signal? 
+  - Perhaps with specific replacement nutrients on heart attack / stroke outcomes
+  - but with many caveats / limitations / low certainty
+  
+:::
+::: {.incremental}
+
+- What about no effect on cardiovascular or all-cause mortality?
+- Doesn't that support the conclusion that reducing SFA does not reduce occurrence of these hard outcomes?
+- From these trials, and meta-analyses, 2 reasonable interpretations:
+  - **yes**, but with but with many caveats / limitations / low certainty
+  - **no**, there is too much noise to support this conclusion.
+
+:::
+::: {.incremental}
+
+- Each side picks their preferred trials or meta-analyses and outcomes.
+- Each side argues why theirs is better.
+
+:::
+
+:::
 
 
 ---
@@ -869,12 +914,12 @@ Which is more informative?
 
 - The RCTs included in these meta-analyses have major problems in design, conduct, and applicability, and do not provide reliable evidence in either direction.
 
-  - They cannot establish that reducing dietary saturated fat lowers the risk of heart attack, heart attack death, or death from any cause, **or that it does not**.
+  - They cannot establish that reducing dietary saturated fat lowers the occurrence of these hard outcomes, **or that it does not**.
 
-- Please, no more meta-analyses of RCTs on saturated fat and hard cardiovascular or mortality endpoints
+- More meta-analyses of RCTs on saturated fat and hard cardiovascular or mortality endpoints won't help
 
-  - If you see another meta-analysis on RCTs of saturated fat reduction...
-
+- Perhaps RCTs are a poor test of this hypothesis in practice.
+- Perhaps our original question was too imprecise.
 :::
 ::: {.incremental}
 

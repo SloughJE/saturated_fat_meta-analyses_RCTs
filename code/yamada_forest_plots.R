@@ -35,14 +35,14 @@ plot_yamada_rr <- function(dat, fig_no, outcome, xlim, at) {
     test.overall = FALSE,
     
     smlab = "Risk ratio",
-    xlab  = "Risk ratio",
+    xlab  = "Favors Lower SFA      Favors Higher SFA",
     xlog  = TRUE,
     xlim  = xlim,
     at    = at,
     
-    digits = 3,
+    digits = 2,
     digits.weight = 1,
-    addrows.below.overall = 3,
+    addrows.below.overall = 4,
     
     text.random = "Random effects model",
     
