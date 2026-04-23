@@ -17,7 +17,7 @@ Is saturated fat bad for you?
 
 ::: {.fragment}
 
-Does reducing dietary saturated fat reduce the occurrence of **heart attacks, death by heart attack, or death by any cause**? 
+Does reducing dietary saturated fat reduce the occurrence of **heart attacks, cardiovascular death, or death by any cause**? 
 
 :::
 
@@ -26,7 +26,7 @@ Does reducing dietary saturated fat reduce the occurrence of **heart attacks, de
 What do the latest meta-analyses on RCTs say?
 
 :::
-::: {.incremental}
+::: {.fragment}
 
 - April 2025 meta-analysis said "no". 
 
@@ -46,7 +46,7 @@ So which is it?
 ## Meta-analysis
 
 
-::: {.incremental}
+::: {.fragment}
 
 - A method of combining evidence from similar studies 
 
@@ -75,7 +75,7 @@ So which is it?
 **Yamada et al. (2025)**
 
 :::
-::: {.incremental}
+::: {.fragment}
 
 - Included 9 RCTs
 - Found no significant reduction in:
@@ -100,7 +100,7 @@ So which is it?
 
 :::
 
-::: {.incremental}
+::: {.fragment}
 
 - Included 17 RCTs total (fewer per outcome/intervention)
 - Found no significant reduction in:
@@ -136,7 +136,7 @@ So which is it?
 ::: {.smaller_table}
 ::: {.fragment}
 
-*Heterogeneity* (I²): Statistical heterogeneity = the portion of between-study variation in observed effect estimates that **cannot** be explained by within-study sampling error alone. Higher = more study variation
+*Heterogeneity* (I²): Statistical heterogeneity = the percentage of the total observed disagreement between study results that is not easily explained by random sampling error alone. Higher = more disagreement between studies
 
 ::: {.smaller3}
 
@@ -150,11 +150,49 @@ So which is it?
 :::
 ::: {.fragment}
 
-It is not Clinical/methodological heterogeneity (differences/variation in study population, interventions, outcomes definitions...etc). 
+It is not Clinical/methodological heterogeneity (differences/variation in study population, interventions, outcomes definitions...etc), although you may see that reflected in it. 
 
 :::
 
 :::
+
+---
+
+### Possible Interpretations
+
+
+::: {.smaller3}
+
+
+**A Signal Increasingly Diluted**
+
+::: {.fragment}
+
+-  Assume lowering saturated fat has some real effect
+-  And that effect would works through cardiovascular disease
+-  We would expect to see it first in specific cardiovascular outcomes, like MI or non-fatal MI
+-  We would expect it less clearly in cardiovascular death
+-  And even less clearly in all-cause mortality, which is a more diluted endpoint 
+-  In shorter, noisier trials, all-cause mortality or CVD mortality may show little or no separation, but might in longer trials.
+
+
+:::
+
+::: {.fragment}
+
+**Take "No Effect" Results at Face Value**
+
+:::
+::: {.fragment}
+
+-  The pooled results may be closer to the real effect
+-  Any real effect on hard endpoints may be small or absent
+-  Differences in MI or CVD outcomes may reflect chance or unstable study differences
+-  Or any true effect may be highly context-dependent, rather than general
+
+:::
+:::
+
 
 ---
 
@@ -183,19 +221,24 @@ It is not Clinical/methodological heterogeneity (differences/variation in study 
 
 ## Lack of Consistency
 
-Why?
+**Why?**
 
-::: {.smaller}
+::: {.smaller3}
 
-::: {.incremental}
 
-- which trials to include
-- which *version* of trials to include
-- which replacement nutrient and how they are classified
-- at what level of detail / subgroup
-  - length of trial, age of participants, risk profile, primary / secondary prevention, dietary replacement 
-- specific outcomes and how they are classified
-  - heart attack, heart attack death, stroke, cardiovascular death, any coronary event, all-cause death
+::: {.fragment}
+
+- the underlying trials differ in intervention, comparator, replacement nutrient, population, duration, setting, and outcomes
+- which trials to include and even which *version* of a trial to include
+- how the intervention is defined and classified
+  - reducing / replacing saturated fat, PUFA replacement, unsaturated-fat replacement, reduced / modified fat, CHO replacment
+- how the replacement nutrient is defined and classified
+- which outcomes are analyzed and how they are classified
+  - MI, CHD death, CVD death, stroke, coronary events, all-cause mortality
+- how much subgrouping to do
+  - trial length, participant age, risk profile, primary / secondary prevention, dietary replacement
+- how the trials are pooled and analyzed
+  - fixed vs random effects, subgrouping, reanalyses, treatment of mixed interventions
 
 :::
 :::
@@ -292,6 +335,7 @@ Used original 1989 version of Minnesota
 :::
 
 
+
 ---
 
 ### The Ideal RCT on Saturated Fat
@@ -311,7 +355,7 @@ The ideal RCT on saturated fat?
 
 :::
 
-::: {.incremental}
+::: {.fragment}
 
 - what exact question is being tested
 - who is being studied, and how many people
@@ -333,7 +377,7 @@ The ideal RCT on saturated fat?
 
 
 ::: {.smaller3}
-::: {.incremental}
+::: {.fragment}
 
 - a very large randomized trial in generally healthy adults
 - long follow-up, > 10 years
@@ -345,8 +389,8 @@ The ideal RCT on saturated fat?
 - other major factors kept as similar as possible between groups
 - adherence measured repeatedly and objectively where possible
 - primary outcomes: MI, CHD death, CVD death, all-cause mortality
-- secondary outcomes: stroke, revascularization, atherosclerosis, and related cardiovascular events
-
+- secondary outcomes: stroke, atherosclerosis, and related cardiovascular events
+- measure everything we can
 
 :::
 ::: {.fragment}
@@ -375,7 +419,9 @@ The ideal RCT on saturated fat?
 
 ### Minnesota
 
-::: {.smaller_table .incremental}
+::: {.smaller_table}
+
+::: {.fragment}
 
 - Study published in 1989, trial began in 1968
 - double blinded, parallel group, randomized controlled dietary intervention trial
@@ -384,12 +430,20 @@ The ideal RCT on saturated fat?
 
 - corn oil / corn-oil margarine vs higher-saturated-fat institutional diet; tested cholesterol, cardiovascular events, cardiovascular death, total death.
 
+:::
+::: {.fragment}
+
 - compared the effects of a 
   - 39% fat control diet (18% saturated fat, 5% polyunsaturated fat, 16% monounsaturated fat, 446 mg dietary cholesterol per day) 
   - 38% fat treatment diet (9% saturated fat, 15% polyunsaturated fat, 14% monounsaturated fat, 166 mg dietary cholesterol per day) 
+  
+:::
+::: {.fragment}
+
 - mean duration of time on the diets was **384 days**, with 1568 subjects consuming the diet for over 2 years
 - For the entire study population, no differences between the treatment and control groups were observed for cardiovascular events, cardiovascular deaths, or total mortality.
 
+:::
 :::
 
 ::: {.fragment .smaller_table}
@@ -407,7 +461,7 @@ Show Fig 6. Life-table graph
 
 ::: {.smaller2}
 
-::: {.incremental}
+::: {.fragment}
 
 - Open-enrollment, single-end-time design
 - very high turnover/attrition and short average time on diet (~1 year)
@@ -432,7 +486,7 @@ Show Fig 6. Life-table graph
 
 ::: {.smaller_table}
 
-::: {.incremental}
+::: {.fragment}
 
 - team recovered study materials stored on two nine-track magnetic tapes plus paper documents
 - cross-referenced discrepancies in older reporting with the Broste thesis (a Master's thesis written in 1981).
@@ -477,7 +531,7 @@ Show Fig 6. Life-table graph
 
 :::
 
-::: {.incremental}
+::: {.fragment}
 
 - ["Ramsden...did not re-analyse the results of the randomise controlled trial."](https://www.ovid.com/journals/bmjeb/abstract/10.1136/ebmed-2016-110486~dietheart-disease-hypothesis-is-unaffected-by-results-of?redirectionsource=fulltextview)
   - subgroup analysis who were on diet > 1 year, and cholesterol data at baseline / follow-up
@@ -509,7 +563,7 @@ Minnesota Coronary Experiment: the 2016 BMJ paper was broader than Sydney. It wa
 ### Sydney Diet Heart Study
 
 ::: {.smaller_table}
-:::{.incremental}
+:::{.fragment}
 
 - Original Paper published in 1978, trial began in 1966
 - secondary intervention (all already had heart attack)
@@ -517,11 +571,15 @@ Minnesota Coronary Experiment: the 2016 BMJ paper was broader than Sydney. It wa
 - 2 to 7 years. 
 
 :::
-:::{.incremental}
+:::{.fragment}
 
 - **intervention**: safflower oil / safflower margarine **advice** vs usual diet (restrict calories if overweight); 
 - **outcome**: tested all-cause, cardiovascular, and CHD mortality
   - specific, high-LA safflower intervention, not just a reduce SF trial
+
+:::
+:::{.fragment}
+
 - diets assessed by interview and/or food log three times during the first year and twice yearly thereafter
 
 - Group P: saturated fatty acids contributed 13.5% and polyunsaturated fatty acids 8.9% of total calories.
@@ -549,7 +607,7 @@ many participants recently changed diets (due to heart attack), trans fat issue 
 ### Sydney, Ramsden re-evaluation
 
 ::: {.smaller_table}
-:::{.incremental}
+:::{.fragment}
 
 - data recovered from the original trial dataset stored on a nine-track magnetic tape 
 - obtained from original investigator
@@ -573,7 +631,7 @@ Results:
 Same problems as original:
 
 :::
-:::{.incremental}
+:::{.fragment}
 
 - intervention changed linoleic acid and saturated fat, but also monounsaturated fat and dietary cholesterol, 
 - trans fat 
@@ -592,16 +650,23 @@ Same problems as original:
 ### LA Veterans Trial
 
 ::: {.smaller_table}
-::: {.incremental}
+::: {.fragment}
 
 - Published in 1968/9, trial began in 1959
 - 846 male veterans, aged 54-88 (mean 65.5)
 - duration varied by entry (participants could enter anytime)
+
+:::
+::: {.fragment}
+
 - The diet intervention:
   - intervention diet: total fat same, substituted vegetable unsaturated fat for two-thirds of the animal fat
   - intervention diet: about **38.4 g/day** linoleic acid and 365.4 mg/day cholesterol.
   - control diet: conventional institutional diet, about 40% of calories from fat
   - control diet: 10.0 g/day linoleic acid and 652.7 mg/day cholesterol
+
+:::
+::: {.fragment}
 
 - Primary outcome: ischemic heart disease manifested by sudden death or myocardial infarction. 
 - Secondary outcomes: cerebral infarction, amputation due to peripheral atherosclerosis, ruptured aortic aneurysm, and intestinal infarction.
@@ -611,8 +676,7 @@ Same problems as original:
 
 Main results: 
 
-:::
-:::{.incremental}
+
 
 - intervention diet lowered serum cholesterol
 - primary endpoint was not statistically significant
@@ -630,7 +694,7 @@ Main results:
 
 Problems:
 
-:::{.incremental}
+:::{.fragment}
 
 
 - Only partial diet control: participants ate only about half of their meals under study conditions.
@@ -645,11 +709,17 @@ Problems:
   - cholesterol intake also changed, special oils and margarines were used
   - other parts of the diet may have changed at the same time
 
+:::
+:::{.fragment}
+
 - Trans-fat exposure, margarines from that era were used, but not clearly measured.
 - different smoking rates per group
 - Study was relatively small for judging hard clinical outcomes.
 
 - Some nonfatal events may have been missed when participants were away from the center.
+
+:::
+:::{.fragment}
 
 - Main positive result came from combining several outcomes, not from the main endpoint alone.
 
@@ -668,13 +738,16 @@ Problems:
 
 The carcinoma issue:
 
-:::{.incremental}
+:::{.fragment}
 
 
 - fewer fatal atherosclerotic events on the intervention diet, but a borderline excess of carcinoma deaths. 
 - trial authors treated that cancer signal as concerning but inconclusive
 
 - overall: 31 carcinoma deaths in intervention group; 17 in the control group (P=0.06). Mortality almost equal. 
+
+:::
+:::{.fragment}
 
 - Figure 14 in main study:
   - not cancer-specific curve, 'death due to other cause' (other than atherosclerotic complication)
@@ -688,8 +761,7 @@ The carcinoma issue:
 
 [Follow-up cancer paper, from same investigators in 1971](https://pubmed.ncbi.nlm.nih.gov/4100347/)
 
-:::
-:::{.incremental}
+
 
 - many cancer deaths in intervention group occurred among men who did not adhere closely to the diet
   - reduced likelihood that the polyunsaturated-oil diet itself explained the excess carcinoma mortality
@@ -730,10 +802,10 @@ The carcinoma issue:
 Same study, same underlying problems 
 
 :::
-:::{.incremental}
+:::{.fragment}
 
 
-- Even if you trust the results, just as likely to die from either diets. 
+- Even if you trust the results, about as likely to die from either diet. 
 
 - LA Veterans does not cleanly show that seed oils increased cancer death.
 
@@ -884,14 +956,14 @@ Which is more informative?
 
 ::: {.smaller3}
 
-::: {.incremental}
+::: {.fragment}
 
 - Even with all the problems, is there any signal? 
   - Perhaps with specific replacement nutrients on heart attack / stroke outcomes
   - but with many caveats / limitations / low certainty
   
 :::
-::: {.incremental}
+::: {.fragment}
 
 - What about no clear effect on cardiovascular or all-cause mortality?
 - Doesn't that support the conclusion that reducing saturated does not reduce these hard outcomes?
@@ -902,7 +974,7 @@ Which is more informative?
 :::
 <br>
 
-::: {.incremental}
+::: {.fragment}
 
 - Each side picks their preferred trials or meta-analyses and outcomes.
 - Each side argues that their preferred evidence deserves more weight
@@ -933,7 +1005,7 @@ Which is more informative?
 - Perhaps our original question was too imprecise.
 
 :::
-::: {.incremental}
+::: {.fragment}
 
 - But what do we do? Is saturated fat good, bad, neutral, it depends? 
 - Can we answer this question?
@@ -953,7 +1025,7 @@ Where do we go from here?
 
 
 
-::: {.incremental}
+::: {.fragment}
 
 - Human hard endpoint RCTs
 - Mechanistic / biological evidence

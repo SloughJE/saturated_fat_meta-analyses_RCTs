@@ -4,7 +4,7 @@
     "href": "index.html#saturated-fat",
     "title": "Is Saturated Fat Unhealthy?",
     "section": "Saturated Fat",
-    "text": "Saturated Fat\nIs saturated fat bad for you?\n\nDoes reducing dietary saturated fat reduce the occurrence of heart attacks, death by heart attack, or death by any cause?\n\n\nWhat do the latest meta-analyses on RCTs say?\n\n\nApril 2025 meta-analysis said “no”.\nDecember 2025 meta-analysis said “yes…sort of”.\n\n\nSo which is it?"
+    "text": "Saturated Fat\nIs saturated fat bad for you?\n\nDoes reducing dietary saturated fat reduce the occurrence of heart attacks, cardiovascular death, or death by any cause?\n\n\nWhat do the latest meta-analyses on RCTs say?\n\n\n\nApril 2025 meta-analysis said “no”.\nDecember 2025 meta-analysis said “yes…sort of”.\n\n\n\nSo which is it?"
   },
   {
     "objectID": "index.html#meta-anlaysis",
@@ -18,7 +18,7 @@
     "href": "index.html#lack-of-consistency",
     "title": "Is Saturated Fat Unhealthy?",
     "section": "Lack of Consistency",
-    "text": "Lack of Consistency\nWhy?\n\n\nwhich trials to include\nwhich version of trials to include\nwhich replacement nutrient and how they are classified\nat what level of detail / subgroup\n\nlength of trial, age of participants, risk profile, primary / secondary prevention, dietary replacement\n\nspecific outcomes and how they are classified\n\nheart attack, heart attack death, stroke, cardiovascular death, any coronary event, all-cause death"
+    "text": "Lack of Consistency\nWhy?\n\n\n\nthe underlying trials differ in intervention, comparator, replacement nutrient, population, duration, setting, and outcomes\nwhich trials to include and even which version of a trial to include\nhow the intervention is defined and classified\n\nreducing / replacing saturated fat, PUFA replacement, unsaturated-fat replacement, reduced / modified fat, CHO replacment\n\nhow the replacement nutrient is defined and classified\nwhich outcomes are analyzed and how they are classified\n\nMI, CHD death, CVD death, stroke, coronary events, all-cause mortality\n\nhow much subgrouping to do\n\ntrial length, participant age, risk profile, primary / secondary prevention, dietary replacement\n\nhow the trials are pooled and analyzed\n\nfixed vs random effects, subgrouping, reanalyses, treatment of mixed interventions"
   },
   {
     "objectID": "index.html#rcts-sfa-reduction-cvd",
@@ -60,20 +60,20 @@
     "href": "index.html#evidence-types",
     "title": "Is Saturated Fat Unhealthy?",
     "section": "Evidence Types",
-    "text": "Evidence Types\n\nHuman hard endpoint RCTs\nMechanistic / biological evidence\nAnimal experimental evidence\nHuman surrogate-outcome RCTs\nObservational studies"
+    "text": "Evidence Types\n\n\nHuman hard endpoint RCTs\nMechanistic / biological evidence\nAnimal experimental evidence\nHuman surrogate-outcome RCTs\nObservational studies"
   },
   {
     "objectID": "index.html#conclusion",
     "href": "index.html#conclusion",
     "title": "Is Saturated Fat Unhealthy?",
     "section": "Conclusion",
-    "text": "Conclusion\n\n\nThe RCTs included in these meta-analyses are highly variable and have major problems in design, conduct, and applicability, making the pooled evidence difficult to interpret.\nThey do not convincingly establish that reducing dietary saturated fat lowers the occurrence of these hard outcomes, or that it does not.\nMore meta-analyses of RCTs on saturated fat and hard cardiovascular or mortality endpoints won’t help\n\n\n\nPerhaps RCTs are a poor test of this hypothesis in practice.\nPerhaps our original question was too imprecise.\n\n\n\nBut what do we do? Is SFA good, bad, neutral, it depends?\nCan we answer this question?\n\n\nWhere do we go from here?"
+    "text": "Conclusion\n\n\nThe RCTs included in these meta-analyses are highly variable and have major problems in design, conduct, and applicability, making the pooled evidence difficult to interpret.\nThey do not convincingly establish that reducing dietary saturated fat lowers the occurrence of these hard outcomes, or that it does not.\nMore meta-analyses of RCTs on saturated fat and hard cardiovascular or mortality endpoints won’t help\n\n\n\nPerhaps RCTs are a poor test of this hypothesis in practice.\nPerhaps our original question was too imprecise.\n\n\n\n\nBut what do we do? Is saturated fat good, bad, neutral, it depends?\nCan we answer this question?\n\n\nWhere do we go from here?"
   },
   {
     "objectID": "index.html#meta-analysis",
     "href": "index.html#meta-analysis",
     "title": "Is Saturated Fat Unhealthy?",
     "section": "Meta-analysis",
-    "text": "Meta-analysis\n\nA method of combining evidence from similar studies\nusing quantitative methods (statistical techniques)\nMore precise conclusion (higher statistical power than a single study)\nStudies should be relatively similar in design and outcome\nThe top of the evidence hierarchy"
+    "text": "Meta-analysis\n\n\nA method of combining evidence from similar studies\nusing quantitative methods (statistical techniques)\nMore precise conclusion (higher statistical power than a single study)\nStudies should be relatively similar in design and outcome\nThe top of the evidence hierarchy"
   }
 ]
