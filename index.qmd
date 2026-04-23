@@ -774,21 +774,20 @@ Same study, same underlying problems
 
 ---
 
-### Overall Problems
+### Overall Problems with the RCTs
 
-::: {.smaller3}
+::: {.smaller_table}
 
 - short duration, high dropout rate
 - small number of participants
-- institutional settings
-- little SFA reduction
-- no / few hard outcomes
-- poor control / tracking of diet
+- institutional or otherwise unusual settings
+- limited, inconsistent or unknown saturated fat reduction
+- poor control and tracking of the actual diet
+- no, few, or sparse hard outcomes
+- different comparators, replacement nutrients, and co-interventions
 - trans-fat / historical diet environment
-- many confounders
-- varied outcomes, varied interventions, extreme interventions
-
-
+- many and varied confounders
+- varied outcomes and varied interventions (some extreme)
 
 ::: {.fragment}
 
@@ -814,7 +813,7 @@ However, these trials are not useless.
 Example:
 
 :::
-::: {.incremental}
+::: {.fragment}
 
 - 1 Meta-analysis of 10 trials × 1,000 people × 1 year = 10,000 person-years 
 
@@ -827,14 +826,14 @@ Which is more informative?
 
 :::
 
-::: {.incremental}
+::: {.fragment}
 
 - Ten 1-year trials do not test a 10-year hypothesis
 - Ten 1-year trials test a 1-year hypothesis ten times.
 
 :::
 
-::: {.incremental}
+::: {.fragment}
 
 - If events occurred only after 5 years, our meta-analysis would confidently conclude No Effect. 
 - And be confidently incomplete. 
@@ -848,32 +847,30 @@ Which is more informative?
 
 ### Problems with Meta-analyses
 
-::: {.smaller2}
-::: {.incremental}
+::: {.smaller3}
+::: {.fragment}
 
-- Meta-analyses pool similar studies
-- Improves precision, increases statistical power
-- They **cannot** fix major design flaws
-- Protocol-based inclusion critera check for prespecified problems
-- Important study flaws can still fall outside those checks
-- Common design flaws can persist across studies
-- Result: a more precise but biased summary estimate
-  - we are more confidently wrong
+
+- Meta-analyses can increase precision and statistical power
+- But they cannot fix major flaws in the original studies
+- They cannot solve a poorly defined intervention or exposure contrast
+- Trials differ in population, setting, duration, comparator, replacement nutrient, and co-interventions
+- Achieved saturated fat reduction is limited, inconsistent, or sometimes unclear
+- Hard outcomes are sparse, and outcomes are not defined consistently across trials
+- Important historical features, including trans-fat exposure, differ across trials
+- The meta-analysis may be a more "precise" estimate of a very mixed and messy set of studies
+- More precise does not necessarily mean a clean estimate of the effect we actually care about
+
 
 :::
 
 ::: {.fragment}
 
-**Saturated Fat RCTs on hard endpoints:**
+**A meta-analysis can improve precision, but it cannot turn a messy set of trials into a clean test of the question we care about**
+
+- A narrower pooled estimate may look more definitive, without being a cleaner answer to the question we are asking.
 
 :::
-::: {.incremental}
-
-- No individual trial is a clean, adequately powered, adequately long unbiased test of SFA reduction on **hard outcome**s.
-- No meta-analysis can fix that.
-
-:::
-
 :::
 
 
@@ -885,7 +882,7 @@ Which is more informative?
 
 ### Signal in the Noise
 
-::: {.smaller2}
+::: {.smaller3}
 
 ::: {.incremental}
 
@@ -896,17 +893,19 @@ Which is more informative?
 :::
 ::: {.incremental}
 
-- What about no effect on cardiovascular or all-cause mortality?
-- Doesn't that support the conclusion that reducing SFA does not reduce occurrence of these hard outcomes?
-- From these trials, and meta-analyses, 2 reasonable interpretations:
-  - **yes**, but with but with many caveats / limitations / low certainty
-  - **no**, there is too much noise to support this conclusion.
+- What about no clear effect on cardiovascular or all-cause mortality?
+- Doesn't that support the conclusion that reducing saturated does not reduce these hard outcomes?
+- From these trials, and meta-analyses, two reasonable interpretations:
+  - **yes**, this does suggest no meaningful effect (with limitations and low certainty)
+  - **no**, there is too much noise and too many limitations to support that conclusion
 
 :::
+<br>
+
 ::: {.incremental}
 
 - Each side picks their preferred trials or meta-analyses and outcomes.
-- Each side argues why theirs is better.
+- Each side argues that their preferred evidence deserves more weight
 
 :::
 
@@ -921,18 +920,22 @@ Which is more informative?
 
 ::: {.incremental}
 
-- The RCTs included in these meta-analyses have major problems in design, conduct, and applicability, and do not provide reliable evidence in either direction.
+- The RCTs included in these meta-analyses are highly variable and have major problems in design, conduct, and applicability, making the pooled evidence difficult to interpret.
 
-  - They cannot establish that reducing dietary saturated fat lowers the occurrence of these hard outcomes, **or that it does not**.
+- They do not convincingly establish that reducing dietary saturated fat lowers the occurrence of these hard outcomes, or that it does not.
 
 - More meta-analyses of RCTs on saturated fat and hard cardiovascular or mortality endpoints won't help
 
+:::
+::: {.fragment}
+
 - Perhaps RCTs are a poor test of this hypothesis in practice.
 - Perhaps our original question was too imprecise.
+
 :::
 ::: {.incremental}
 
-- But what do we do? Is SFA good, bad, neutral, it depends? 
+- But what do we do? Is saturated fat good, bad, neutral, it depends? 
 - Can we answer this question?
 
 ::: {.fragment}
