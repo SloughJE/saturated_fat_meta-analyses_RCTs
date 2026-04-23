@@ -785,8 +785,8 @@ Same study, same underlying problems
 - no / few hard outcomes
 - poor control / tracking of diet
 - trans-fat / historical diet environment
-- varied outcomes, varied interventions, extreme interventions
 - many confounders
+- varied outcomes, varied interventions, extreme interventions
 
 
 
