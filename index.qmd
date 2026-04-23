@@ -774,24 +774,33 @@ Same study, same underlying problems
 
 ---
 
-### Overall Problems with the RCTs
+### Overall Problems
 
 ::: {.smaller3}
 
-- short duration
-- high dropout rate
+- short duration, high dropout rate
 - small number of participants
 - institutional settings
 - little SFA reduction
 - no / few hard outcomes
 - poor control / tracking of diet
-- historical diet environment
-- trans-fat
-- varied outcomes
-- varied interventions, extreme interventions
+- trans-fat / historical diet environment
+- varied outcomes, varied interventions, extreme interventions
 - many confounders
 
 
+
+::: {.fragment}
+
+However, these trials are not useless.
+
+- they show how difficult and messy long-term dietary RCTs really are
+- some outcomes in these trials may be more informative than the sparse hard endpoints
+- ambitious and carefully designed, even if they could not overcome the practical limits
+- they reveal recurring problems in dietary RCTs that are easy to miss in theory
+- they help show the limits of what diet RCTs can realistically test
+
+:::
 :::
 
 ---
