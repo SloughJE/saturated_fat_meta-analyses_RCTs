@@ -992,10 +992,11 @@ Which is more informative?
 
 ::: {.incremental}
 
-- The RCTs included in these meta-analyses are highly variable and have major problems in design, conduct, and applicability, making the pooled evidence difficult to interpret.
+- The RCTs included in these meta-analyses are highly variable and have major problems in design, conduct, and applicability, making the pooled evidence unreliable.
 
 - They do not convincingly establish that reducing dietary saturated fat lowers the occurrence of these hard outcomes, or that it does not.
 
+- A signal may be present, but increasingly diluted as outcomes move from MI/coronary events to cardiovascular and all-cause mortality. Longer and cleaner trials would be needed to detect it (probably impractical). 
 - More meta-analyses of RCTs on saturated fat and hard cardiovascular or mortality endpoints won't help
 
 :::
