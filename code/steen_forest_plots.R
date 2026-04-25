@@ -303,3 +303,166 @@ steen_fig_meta$stroke <- list(
 
 plot_steen("stroke", filename = "output/steen_fig4.png")
 plot_steen("stroke", exclude_rose_olive = TRUE, filename = "output/steen_fig4_no_rose_olive.png")
+
+
+#################
+# sensitivity analysis
+library(dplyr)
+library(tibble)
+library(meta)
+library(ggplot2)
+library(stringr)
+
+steen_outcomes <- c("allcause", "cvd_mortality", "nonfatal_mi", "stroke")
+
+prep_steen_pufa_data <- function(outcome_name) {
+  steen_dat %>%
+    filter(
+      outcome_key == outcome_name,
+      replace_type == "PUFA"
+    ) %>%
+    arrange(study_order) %>%
+    mutate(
+      study = factor(study, levels = study)
+    ) %>%
+    droplevels()
+}
+
+fit_steen_pufa_meta <- function(dat, tau = c("REML", "DL")) {
+  tau <- match.arg(tau)
+  
+  metabin(
+    event.e = event.e,
+    n.e     = n.e,
+    event.c = event.c,
+    n.c     = n.c,
+    studlab = study,
+    data    = dat,
+    sm      = "RR",
+    method  = "MH",
+    common  = FALSE,
+    random  = TRUE,
+    method.tau = tau,
+    Q.Cochrane = identical(tau, "DL"),
+    method.random.ci = FALSE,
+    prediction = FALSE
+  )
+}
+
+analyze_steen_pufa_loo <- function(outcome_name, tau = c("REML", "DL")) {
+  tau <- match.arg(tau)
+  
+  dat <- prep_steen_pufa_data(outcome_name)
+  m   <- fit_steen_pufa_meta(dat, tau = tau)
+  inf <- metainf(m, pooled = "random")
+  
+  figure_label <- paste0(
+    "Figure ", unique(dat$figure_no), ": ", unique(dat$outcome_label)
+  )
+  
+  loo_tbl <- tibble(
+    figure       = figure_label,
+    omitted      = as.character(inf$studlab),
+    RR           = exp(inf$TE),
+    lower        = exp(inf$lower),
+    upper        = exp(inf$upper),
+    I2           = inf$I2,
+    tau2         = inf$tau2,
+    type         = "Leave-one-out"
+  ) %>%
+    left_join(
+      dat %>% select(study, study_order),
+      by = c("omitted" = "study")
+    ) %>%
+    rename(display_order = study_order)
+  
+  overall_tbl <- tibble(
+    figure        = figure_label,
+    omitted       = "Full dataset",
+    RR            = exp(m$TE.random),
+    lower         = exp(m$lower.random),
+    upper         = exp(m$upper.random),
+    I2            = m$I2,
+    tau2          = m$tau2,
+    type          = "Overall",
+    display_order = 0
+  )
+  
+  bind_rows(overall_tbl, loo_tbl)
+}
+
+plot_steen_pufa_loo_all <- function(tau = c("REML", "DL")) {
+  tau <- match.arg(tau)
+  
+  plot_dat <- bind_rows(
+    lapply(steen_outcomes, analyze_steen_pufa_loo, tau = tau)
+  ) %>%
+    mutate(
+      omitted_clean = case_when(
+        type == "Overall" ~ "Full dataset",
+        TRUE ~ omitted %>%
+          str_remove("^Omitting\\s+") %>%
+          str_remove(",\\s*\\d{4}$") %>%
+          str_remove("\\s*\\d{4}$") %>%
+          str_replace_all("\\bet al\\.?\\b", "") %>%
+          str_replace_all("\\bDiet-Heart\\.?\\b", "") %>%
+          str_replace_all("\\bDiet Heart\\.?\\b", "") %>%
+          str_replace("^Minnesota Coronary$", "Minnesota") %>%
+          str_replace("^Veterans", "Vet") %>%
+          str_squish()
+      )
+    ) %>%
+    group_by(figure) %>%
+    arrange(display_order, .by_group = TRUE) %>%
+    mutate(
+      omitted_facet = paste(figure, omitted_clean, sep = "___")
+    ) %>%
+    ungroup()
+  
+  plot_dat$omitted_facet <- factor(
+    plot_dat$omitted_facet,
+    levels = rev(unique(plot_dat$omitted_facet))
+  )
+  
+  ggplot(
+    plot_dat,
+    aes(x = RR, y = omitted_facet, color = type)
+  ) +
+    geom_vline(xintercept = 1, linetype = 2, color = "grey40") +
+    geom_errorbarh(aes(xmin = lower, xmax = upper), height = 0) +
+    geom_point(size = 2) +
+    scale_x_log10() +
+    scale_y_discrete(
+      labels = function(x) sub("^.*___", "", x)
+    ) +
+    scale_color_manual(
+      values = c(
+        "Leave-one-out" = "#F8766D",
+        "Overall" = "#00BFC4"
+      )
+    ) +
+    facet_wrap(~ figure, scales = "free_y", ncol = 2) +
+    labs(
+      x = "Risk ratio",
+      y = NULL,
+      title = paste0(
+        "Steen PUFA replacement: leave-one-out sensitivity analysis (", tau, ")"
+      ),
+      subtitle = "Row shows pooled RR after leaving out the named study; 'Full dataset' is the original"
+    ) +
+    theme_bw(base_size = 12) +
+    theme(
+      legend.position = "none"
+    )
+}
+
+steen_loo_reml <- bind_rows(
+  lapply(steen_outcomes, analyze_steen_pufa_loo, tau = "REML")
+)
+
+steen_loo_dl <- bind_rows(
+  lapply(steen_outcomes, analyze_steen_pufa_loo, tau = "DL")
+)
+
+plot_steen_pufa_loo_all("REML")
+plot_steen_pufa_loo_all("DL")

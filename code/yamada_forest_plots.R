@@ -5,6 +5,8 @@ library(dplyr)
 library(tibble)
 library(meta)
 library(grid)
+library(ggplot2)
+library(stringr)
 
 plot_yamada_rr <- function(dat, fig_no, outcome, xlim, at) {
   m <- metabin(
@@ -346,3 +348,151 @@ plot_yamada_rr(
 dat_yamada_mi_pub_no_rose <- dat_yamada_mi_pub %>%
   filter(study != "Rose GA 1965 (c.1963)")
 
+
+dat_yamada_fig2_rr_no_ram = dat_yamada_fig2_rr %>%
+  filter(study!= "Ramsden CE 2013 (1966)")
+
+dat_yamada_fig3_rr_no_ram = dat_yamada_fig3_rr %>%
+  filter(study!= "Ramsden CE 2013 (1966)")
+
+dat_yamada_fig4_rr_no_ram = dat_yamada_fig4_rr %>%
+  filter(study!= "Ramsden CE 2013 (1966)")
+
+dat_yamada_fig5_rr_no_ram = dat_yamada_fig5_rr %>%
+  filter(study!= "Ramsden CE 2013 (1966)")
+
+
+
+# plot_yamada_rr(
+#   dat     = dat_yamada_fig5_rr_no_ram,
+#   fig_no  = 4,
+#   outcome = "All cause\nnon-fatal MI substitution for Burr from DART",
+#   xlim    = c(0.2, 5),
+#   at      = c(0.2, 0.5, 1, 2, 5)
+# )
+
+
+
+########
+
+library(dplyr)
+library(tibble)
+library(meta)
+library(ggplot2)
+library(stringr)
+
+datasets <- list(
+  "Figure 2: cardiovascular mortality" = dat_yamada_fig2_rr,
+  "Figure 3: all-cause mortality"      = dat_yamada_fig3_rr,
+  "Figure 4: myocardial infarction"    = dat_yamada_fig4_rr,
+  "Figure 5: any coronary event"       = dat_yamada_fig5_rr
+)
+
+fit_rr_meta <- function(dat, tau = "REML") {
+  metabin(
+    event.e = event.e,
+    n.e     = n.e,
+    event.c = event.c,
+    n.c     = n.c,
+    studlab = study,
+    data    = dat,
+    sm      = "RR",
+    method  = "MH",
+    common  = FALSE,
+    random  = TRUE,
+    method.tau = tau,
+    method.random.ci = FALSE,
+    prediction = FALSE
+  )
+}
+
+analyze_rr_dataset <- function(dat, fig_label, tau = "REML") {
+  main_fit <- fit_rr_meta(dat, tau = tau)
+  loo_obj  <- metainf(main_fit, pooled = "random")
+  
+  loo_tbl <- bind_rows(
+    tibble(
+      figure  = fig_label,
+      omitted = "Full dataset",
+      RR      = exp(main_fit$TE.random),
+      lower   = exp(main_fit$lower.random),
+      upper   = exp(main_fit$upper.random),
+      I2      = main_fit$I2,
+      tau2    = main_fit$tau2,
+      type    = "Overall"
+    ),
+    tibble(
+      figure  = fig_label,
+      omitted = as.character(loo_obj$studlab),
+      RR      = exp(loo_obj$TE),
+      lower   = exp(loo_obj$lower),
+      upper   = exp(loo_obj$upper),
+      I2      = loo_obj$I2,
+      tau2    = loo_obj$tau2,
+      type    = "Leave-one-out"
+    )
+  )
+  
+  loo_tbl
+}
+
+make_loo_data <- function(datasets, tau = "REML") {
+  out <- bind_rows(
+    lapply(names(datasets), function(nm) {
+      analyze_rr_dataset(datasets[[nm]], nm, tau = tau)
+    })
+  )
+  
+  out %>%
+    mutate(
+      omitted_clean = case_when(
+        type == "Overall" ~ "Full dataset",
+        TRUE ~ omitted %>%
+          str_remove("^Omitting\\s+") %>%
+          str_remove("\\s*\\([^)]*\\)$") %>%
+          str_remove("\\s+[0-9]{4}$") %>%
+          str_replace("\\s+.*$", "")
+      )
+    ) %>%
+    group_by(figure) %>%
+    mutate(
+      omitted_clean = factor(omitted_clean, levels = rev(unique(omitted_clean)))
+    ) %>%
+    ungroup()
+}
+
+plot_loo <- function(loo_plot, title_text) {
+  ggplot(
+    loo_plot,
+    aes(x = RR, y = omitted_clean, color = type)
+  ) +
+    geom_vline(xintercept = 1, linetype = 2, color = "grey40") +
+    geom_errorbarh(aes(xmin = lower, xmax = upper), height = 0) +
+    geom_point(size = 2) +
+    scale_x_log10() +
+    scale_color_manual(
+      values = c(
+        "Leave-one-out" = "#F8766D",
+        "Overall" = "#00BFC4"
+      )
+    ) +
+    facet_wrap(~ figure, scales = "free_y", ncol = 2) +
+    labs(
+      x = "Risk ratio",
+      y = NULL,
+      title = title_text,
+      subtitle = "Row shows pooled RR after leaving out the named study; 'Full dataset' is the original"
+    ) +
+    theme_bw(base_size = 12) +
+    theme(
+      legend.position = "none"
+    )
+}
+
+# REML version
+loo_reml <- make_loo_data(datasets, tau = "REML")
+plot_loo(loo_reml, "Yamada: Leave-one-out sensitivity analysis (REML)")
+
+# DL version
+loo_dl <- make_loo_data(datasets, tau = "DL")
+plot_loo(loo_dl, "Yamada: Leave-one-out sensitivity analysis (DL)")
