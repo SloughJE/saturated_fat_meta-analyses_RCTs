@@ -338,7 +338,7 @@ plot_summary_compact <- function(summary_tbl,
     labs(
       x = "Risk ratio",
       y = NULL,
-      title = "Yamada and Steen Summary of Pooled Estimates",
+      title = "Yamada and Steen Summary of Overall Pooled Estimates",
       subtitle = "meta-analyses refit using Risk Ratio and REML for direct comparison",
       caption = "Outcome definitions may vary"
       

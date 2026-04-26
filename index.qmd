@@ -936,7 +936,8 @@ Same study, same underlying problems
 
 ::: {.smaller_table}
 
-- short duration, high dropout rate
+- high dropout rate
+- short duration 
 - small number of participants
 - institutional or otherwise unusual settings
 - limited, inconsistent or unknown saturated fat reduction
@@ -965,16 +966,24 @@ However, these trials are not useless.
 ### CI Precision and Overconfidence
 
 
-::: {.smaller2}
+::: {.smaller3}
 
 
-- The CI for a study’s RR is based on the event counts and the **total number of people in each group**.
-- If the full randomized group is used, a trial with high turnover (dropouts) can appear statistically precise. (Minnesota)
+- CI for a study’s RR is based on the event counts and the **number of people in each group**.
+- If the full randomized group is used, a trial with high turnover (or short exposure) can appear statistically precise. 
 
 - A tight CI may overstate the precision of a trial for long-term saturated fat reduction.
-  - also BTW, the CI itself does not directly reflect how long participants actually stayed on the assigned diet.
+- For a long-term diet question, the relevant information is closer to **time actually spent on the assigned diet**, not only the number randomized.
 
 ::: {.fragment}
+
+Minnesota Example:
+
+- Large randomized cohort: **4541 intervention vs 4516 control**.
+- Open-enrollment institutional trial with substantial turnover
+- Yamada and Steen used the full randomized group counts
+- Because the sample size is very large, Minnesota receives high weight and has a tight CI.
+- But that CI may overstate how precise the trial is for **long-term saturated fat reduction**.
 
 :::
 :::
