@@ -119,7 +119,7 @@ plot_steen <- function(outcome_name,
     common  = FALSE,
     random  = TRUE,
     subgroup = replace_group,
-    tau.common = TRUE,
+    tau.common = FALSE,
     method.tau = "DL",
     Q.Cochrane = TRUE,
     method.random.ci = FALSE,
@@ -249,6 +249,22 @@ steen_dat <- bind_rows(
   steen_dat,
   tribble(
     ~outcome_key,   ~figure_no, ~outcome_label, ~study,                         ~replace_type, ~event.e, ~n.e,  ~event.c, ~n.c,  ~study_order,
+    "nonfatal_mi_typos",  3,          "Nonfatal MI",  "DART, 1989",                   "PUFA",             35, 1018,       47, 1015,  1,
+    "nonfatal_mi_typos",  3,          "Nonfatal MI",  "Lyon Diet Heart, 1994",        "PUFA",              5,  302,       17,  303,  2,
+    "nonfatal_mi_typos",  3,          "Nonfatal MI",  "MRC, 1968",                    "PUFA",             25,  199,       25,  194,  3,
+    "nonfatal_mi_typos",  3,          "Nonfatal MI",  "Oslo Diet-Heart, 1966",        "PUFA",             24,  206,       31,  206,  4,
+    "nonfatal_mi_typos",  3,          "Nonfatal MI",  "Rose et al (corn oil), 1965",  "PUFA",              7,   28,        5,   26,  5,
+    "nonfatal_mi_typos",  3,          "Nonfatal MI",  "Veterans Admin, 1969",         "PUFA",             13,  424,       21,  427,  6,
+    "nonfatal_mi_typos",  3,          "Nonfatal MI",  "Moy et al., 2001",             "CHO",               2,  177,        1,  118,  7,
+    "nonfatal_mi_typos",  3,          "Nonfatal MI",  "Rose et al (olive oil), 1965", "MUFA",              6,   26,        5,   26,  8,
+    "nonfatal_mi_typos",  3,          "Nonfatal MI",  "WHI, 2006",                    "CHO",             459,19541,      684,29294,  9
+  )
+)
+
+steen_dat <- bind_rows(
+  steen_dat,
+  tribble(
+    ~outcome_key,   ~figure_no, ~outcome_label, ~study,                         ~replace_type, ~event.e, ~n.e,  ~event.c, ~n.c,  ~study_order,
     "nonfatal_mi",  3,          "Nonfatal MI",  "DART, 1989",                   "PUFA",             35, 1018,       47, 1015,  1,
     "nonfatal_mi",  3,          "Nonfatal MI",  "Lyon Diet Heart, 1994",        "PUFA",              5,  302,       17,  303,  2,
     "nonfatal_mi",  3,          "Nonfatal MI",  "MRC, 1968",                    "PUFA",             25,  199,       25,  194,  3,
@@ -261,14 +277,20 @@ steen_dat <- bind_rows(
   )
 )
 
-steen_fig_meta$nonfatal_mi <- list(
-  title_text = "Steen Figure 3: Nonfatal MI\nPUFA replacement versus other macronutrients",
+steen_fig_meta$nonfatal_mi_typos <- list(
+  title_text = "Steen Figure 3: Nonfatal MI (displayed row-total typos)\nPUFA replacement versus other macronutrients",
   xlim = c(0.01, 100),
   at   = c(0.01, 0.1, 1, 10, 100)
 )
 
-plot_steen("nonfatal_mi", filename = "output/steen_fig3.png")
-plot_steen("nonfatal_mi", exclude_rose_olive = TRUE, filename = "output/steen_fig3_no_rose_olive.png")
+steen_fig_meta$nonfatal_mi <- list(
+  title_text = "Steen Figure 3: Nonfatal MI (typos fixed)\nPUFA replacement versus other macronutrients",
+  xlim = c(0.01, 100),
+  at   = c(0.01, 0.1, 1, 10, 100)
+)
+plot_steen("nonfatal_mi_typos", filename = "output/steen_fig3_typos.png")
+#plot_steen("nonfatal_mi", exclude_rose_olive = TRUE, filename = "output/steen_fig3_no_rose_olive.png")
+plot_steen("nonfatal_mi", filename = "output/steen_fig3_fixed.png")
 
 
 # Steen Figure 4 (Stroke: fatal and non-fatal)

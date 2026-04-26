@@ -30,7 +30,7 @@ What do the latest meta-analyses on RCTs say?
 
 - April 2025 meta-analysis said "no". 
 
-- December 2025 meta-analysis said "yes...sort of".
+- December 2025 meta-analysis said "yes...but it depends".
 
 :::
 
@@ -103,10 +103,10 @@ So which is it?
 ::: {.fragment}
 
 - Included 17 RCTs total (fewer per outcome/intervention)
-- Found no significant reduction in:
+- Overall, found no significant reduction in:
   - all-cause mortality, cardiovascular mortality, nonfatal myocardial infarction, stroke
-- However: for nonfatal MI, replacement by PUFA -> significant reduction
-- In 5 year period, estimated absolute effect varied by baseline cardiovascular risk. With 'predefined thresholds':
+- However, replacement by PUFA for nonfatal MI -> significant reduction
+- In 5 year period, when stratified by baseline cardiovascular risk, with 'predefined thresholds':
   - In low cardiovascular risk groups, the **point estimate** suggests an "unimportant effect". 
   - In high cardiovascular risk groups, the **point estimate** suggests an "important effect".
   
@@ -154,6 +154,92 @@ It is not Clinical/methodological heterogeneity (differences/variation in study 
 
 :::
 
+:::
+
+---
+
+
+### Yamada Details
+
+::: {.smaller_table}
+
+
+- Yamada reports Risk Ratio results in the abstract, but Odds Ratios in the paper and charts. Numbers are the same, so appears to be just a labelling error.
+- Risk Ratio and Odds Ratio are similar but not identical.
+  - RR compares probabilities directly: “the event happened 20% less often.”
+  - OR compares odds rather than probabilities, so it is a little less intuitive.
+- RR is usually easier to interpret
+- OR can make effects look a bit stronger when events are not rare.
+
+::: {.fragment}
+
+**Myocardial Infarction and Any Coronary Artery Event (Fig 4 and 5)**
+
+- Same Burr/DART study counts in Figure 4, “myocardial infarction,” and Figure 5, “any coronary artery event”
+- In the original Burr/DART table, those counts are 132 vs 144 for **IHD events**, not MI
+  - Table separately reports non-fatal MI = 35 vs 47
+- Burr defines IHD events = `IHD deaths + non-fatal MI`
+
+- Yamada’s MI endpoint appears to mean `fatal + non-fatal MI`, but Burr does not report that endpoint
+- Yamada uses Burr’s broader IHD-event counts for the MI outcome
+- The broader counts move Burr much closer to no effect: 35 vs 47 becomes 132 vs 144
+- Burr has large weight and Yamada’s pooled MI result is **borderline** (Fig 4), this endpoint choice could materially affect the **overall MI conclusion and the entire paper's conclusion.**
+
+:::
+
+:::
+
+---
+
+### Steen Details
+
+::: {.smaller2}
+
+
+- Steen Figure 3 appears to contain two typos in the displayed event/total columns
+- Moy et al. 2001: printed as 2/177 vs 1/118
+  - supplement shows 2/117 vs 1/118
+- Veterans Admin 1969: printed as 13/424 vs 21/427
+  - supplement and source trial support 13/424 vs 21/422
+- published RR column and pooled RR are correct
+  - calculations do not reflect the typos in the table)
+
+
+:::
+
+---
+
+### Yamada vs. Steen Overall Comparison
+
+::: {.smaller_table}
+
+::: {.fragment}
+
+- **Yamada’s conclusion is stronger than its analysis supports**
+  - reports RR in the abstract but OR in the paper and figures
+  - MI endpoint is poorly defined and includes the Burr/DART endpoint problem
+  - treats borderline “CI crosses 1.0” as supporting a broad “cannot be recommended”
+  - supplement provides little beyond search strategy
+  
+- **Steen is more rigorous and decision-oriented**
+  - separates results by replacement nutrient, especially PUFA vs other replacements
+  - translates relative effects into absolute risk differences
+  - treats borderline “CI doesn't cross 1.0” more cautiously ("low/moderate certainty")
+  - provides detailed supplements, subgroup analyses, and sensitivity checks
+
+:::
+::: {.fragment}
+
+- **Main difference**
+  - Steen’s conclusion is cautious and risk-stratified
+  - Yamada’s conclusion is stronger than the evidence supports
+
+- **Bottom line**
+  - The strongest signal is for PUFA replacement reducing nonfatal MI
+  - The RCT evidence is not decisive
+  - Borderline CIs should not be overinterpreted in either direction
+
+:::
 :::
 
 ---
@@ -876,15 +962,31 @@ However, these trials are not useless.
 
 ---
 
+### CI Precision and Overconfidence
+
+
+::: {.smaller2}
+
+
+- The CI for a study’s RR is based on the event counts and the **total number of people in each group**.
+- If the full randomized group is used, a trial with high turnover (dropouts) can appear statistically precise. (Minnesota)
+
+- A tight CI may overstate the precision of a trial for long-term saturated fat reduction.
+  - also BTW, the CI itself does not directly reflect how long participants actually stayed on the assigned diet.
+
+::: {.fragment}
+
+:::
+:::
+
+---
+
 ### Short Trial Duration and Overconfidence
 
 ::: {.smaller2}
 
-::: {.fragment}
-
 Example:
 
-:::
 ::: {.fragment}
 
 - 1 Meta-analysis of 10 trials × 1,000 people × 1 year = 10,000 person-years 
@@ -997,6 +1099,7 @@ Which is more informative?
 - They do not convincingly establish that reducing dietary saturated fat lowers the occurrence of these hard outcomes, or that it does not.
 
 - A signal may be present, but increasingly diluted as outcomes move from MI/coronary events to cardiovascular and all-cause mortality. Longer and cleaner trials would be needed to detect it (probably impractical). 
+
 - More meta-analyses of RCTs on saturated fat and hard cardiovascular or mortality endpoints won't help
 
 :::
