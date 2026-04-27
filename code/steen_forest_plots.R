@@ -190,11 +190,11 @@ plot_steen <- function(outcome_name,
 
 
 # regular Steen Figure 1
-plot_steen(
-  "allcause",
-  exclude_rose_olive = TRUE,
-  filename = "output/steen_fig1_no_rose_olive.png"
-)
+# plot_steen(
+#   "allcause",
+#   exclude_rose_olive = TRUE,
+#   filename = "output/steen_fig1_no_rose_olive.png"
+# )
 
 plot_steen("allcause", save_png = TRUE,  filename = "output/steen_fig1.png")
 # same plot, but drop Rose olive oil entirely
@@ -240,7 +240,7 @@ steen_fig_meta$cvd_mortality <- list(
 )
 
 plot_steen("cvd_mortality", filename = "output/steen_fig2.png")
-plot_steen("cvd_mortality", exclude_rose_olive = TRUE, filename = "output/steen_fig2_no_rose_olive.png")
+#plot_steen("cvd_mortality", exclude_rose_olive = TRUE, filename = "output/steen_fig2_no_rose_olive.png")
 
 
 # Steen Figure 3 (Nonfatal MI)
@@ -294,7 +294,8 @@ steen_fig_meta$nonfatal_mi <- list(
   xlim = c(0.01, 100),
   at   = c(0.01, 0.1, 1, 10, 100)
 )
-plot_steen("nonfatal_mi_typos", filename = "output/steen_fig3_typos.png")
+
+#plot_steen("nonfatal_mi_typos", filename = "output/steen_fig3_typos.png")
 #plot_steen("nonfatal_mi", exclude_rose_olive = TRUE, filename = "output/steen_fig3_no_rose_olive.png")
 plot_steen("nonfatal_mi", filename = "output/steen_fig3_fixed.png")
 
@@ -330,16 +331,12 @@ steen_fig_meta$stroke <- list(
 )
 
 plot_steen("stroke", filename = "output/steen_fig4.png")
-plot_steen("stroke", exclude_rose_olive = TRUE, filename = "output/steen_fig4_no_rose_olive.png")
+#plot_steen("stroke", exclude_rose_olive = TRUE, filename = "output/steen_fig4_no_rose_olive.png")
 
 
 #################
 # sensitivity analysis
-library(dplyr)
-library(tibble)
-library(meta)
-library(ggplot2)
-library(stringr)
+
 
 steen_outcomes <- c("allcause", "cvd_mortality", "nonfatal_mi", "stroke")
 

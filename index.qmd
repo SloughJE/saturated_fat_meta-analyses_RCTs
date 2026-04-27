@@ -562,21 +562,35 @@ Show Fig 6. Life-table graph
 
 ### Minnesota, Problems
 
-::: {.smaller2}
+::: {.smaller_table}
 
 ::: {.fragment}
 
 - Open-enrollment, single-end-time design
-- very high turnover/attrition and short average time on diet (~1 year)
 - trial was conducted in state mental hospitals and one nursing home
-- lack of data on trans-fat exposure, LDL, smoking status, weight loss / baseline disease status, other dietary changes
-- subjects could leave; once they were out they could eat whatever was available outside the institution; 
-  - while inside, tighter meal control
-  - for many subjects, exposure was **intermittent** rather than continuous
-- Reporting inconsistencies and per-protocol analysis after significant drop out
+
+- very high turnover and short average exposure:
+  - average total time on diet: 384 days; average stay: 292 days
+  
+
+- exposure was often **intermittent** rather than continuous:
+  - subjects could leave the institution and later return
+  - missed serving-line meals likely meant eating elsewhere
+  
+- diet change was not just saturated fat reduction:
+  - lower saturated fat, lower dietary cholesterol, much higher PUFA
+  - very high use of corn oil / corn-oil margarine in intervention diet
+
+- lack of data on smoking status, weight loss / baseline disease status, other dietary changes
+- initial stratification included smoking, weight, and ECG evidence of prior MI,
+  - but later admissions were stratified only by age and sex
+  
 - Historical food environment (trans-fats)
-- very high use of corn oil / corn-oil margarine in intervention diet
+
 - substantial variability in study diets between hospitals
+
+- some raw data were not recovered
+- delayed / incomplete reporting and recovered-data issues
 
 :::
 
@@ -665,7 +679,7 @@ Minnesota Coronary Experiment: the 2016 BMJ paper was broader than Sydney. It wa
 
 ### Sydney Diet Heart Study
 
-::: {.smaller_table}
+::: {.smaller3}
 :::{.fragment}
 
 - Original Paper published in 1978, trial began in 1966
@@ -693,17 +707,44 @@ Minnesota Coronary Experiment: the 2016 BMJ paper was broader than Sydney. It wa
 
 Result: "Survival was slightly better in the second group." (low sat fat) (show figure 2)
 :::
-:::{.fragment}
-
-Problems: \
-many participants recently changed diets (due to heart attack), trans fat issue (safflower-oil margarine), historical food environment, messy multi-component intervention problem, less control on actual diet, not a full feeding trial where all meals supplied, tracking not perfect, small numbers at end of trial.
-
 
 
 :::
 
-:::
+---
 
+### Sydney Diet Heart Study, Problems
+
+::: {.smaller_table}
+
+
+- Secondary prevention population:
+  - **86% (395 / 458)** had myocardial infarction
+  - entered study ~**11 weeks** after acute event
+
+- major lifestyle changes before randomization:
+  - smokers: **70% (321 / 458)** at infarction → **38% (174 / 458)** at entry; >20 cigarettes/day: **47.1% → 6.1%**
+  - weight loss occurred between infarction and study entry
+
+- diet exposure not tightly controlled:
+  - diet assessed by interview + food logs; assessed 3× in year 1, then 2× yearly
+
+- control group contamination:
+  - allowed polyunsaturated margarine instead of butter
+  - control group also changed diet in the intervention direction
+
+- lower saturated fat ~9.8% vs 13.5% of calories (small reduction?)
+- safflower oil / safflower-oil margarine emphasized in intervention diet
+
+- diet separation was weaker than intended; considerable within-group variation and overlap between groups
+  
+- historical food environment (trans-fats)
+- prognosis was strongly driven by baseline coronary / myocardial disease severity
+
+- relatively small sample size, especially for hard endpoints
+- "Both the number of subjects and the duration of the study may have been insufficient."
+
+:::
 
 ---
 
@@ -791,46 +832,40 @@ Main results:
 
 ---
 
-### LA Veterans Trial
+### LA Veterans Trial, Problems
 
 ::: {.smaller_table}
 
-Problems:
+- Institutional trial, but only partial diet control:
+  - overall adherence: **49% intervention vs 56% control**
 
-:::{.fragment}
+- uneven exposure / follow-up:
+  - 8-year trial, but recruitment throughout from 1959 to 1967
+  - most subjects entered early, but later recruits had much shorter possible exposure
+  - no clear full-cohort average time on diet reported
+
+- More withdrawal in the intervention group:
+  - total withdrawals: **117 intervention vs 58 control**; first year withdrawals: **69 vs 24**
+
+- mixed primary / secondary prevention population:
+  - pre-existing atherosclerotic complications were not exclusion criteria
+
+- authors noted participants may have been beyond the stage where prevention was likely
+
+- much higher linoleic acid: **38% vs 10% of fatty acids**
+  - vegetable oils, filled milk, imitation ice cream, margarine, filled cheeses, and modified meats
+
+- baseline smoking differed between groups:
+  - intervention had more moderate smokers; control had more heavy smokers; significant difference: **p < 0.01**
 
 
-- Only partial diet control: participants ate only about half of their meals under study conditions.
+- historical food environment: hydrogenated shortenings / margarine-era trans-fat exposure
 
-- Adherence was limited and was tracked indirectly, mainly by dining hall attendance.
+- nonfatal event ascertainment may have been weaker when men were away from the center:
 
-- More people dropped out of the intervention group than the control group.
+- relatively small sample size for hard endpoints: 422 control / 424 intervention (regardless of withdrawals)
 
-- Study group was mixed: some participants already had signs or history of atherosclerotic disease.
 
-- Diet change was not just “less saturated fat”:
-  - cholesterol intake also changed, special oils and margarines were used
-  - other parts of the diet may have changed at the same time
-
-:::
-:::{.fragment}
-
-- Trans-fat exposure, margarines from that era were used, but not clearly measured.
-- different smoking rates per group
-- Study was relatively small for judging hard clinical outcomes.
-
-- Some nonfatal events may have been missed when participants were away from the center.
-
-:::
-:::{.fragment}
-
-- Main positive result came from combining several outcomes, not from the main endpoint alone.
-
-- late in the trial, **excess non-atherosclerotic mortality** in the intervention group
-  - driven by small numbers of trauma and carcinoma deaths, 
-  - authors argued it probably did not reflect toxicity.
-
-:::
 :::
 
 ---
