@@ -45,6 +45,7 @@ So which is it?
 
 ## Meta-analysis
 
+::: {.smaller}
 
 ::: {.fragment}
 
@@ -58,6 +59,11 @@ So which is it?
 
 - The top of the [evidence hierarchy](https://guides.library.ucdavis.edu/systematic-reviews/levels-of-evidence)
 
+
+Randomized Controlled Trial: \
+*- a study that randomly assigns people to different groups so underlying group differences are balanced*
+
+:::
 
 :::
 
@@ -88,7 +94,7 @@ So which is it?
 ::: {.caption_gray}
 ::: {.fragment}
 
-"The findings indicate that a reduction in saturated fats cannot be recommended at present to prevent cardiovascular diseases and mortality."
+"The findings indicate that a reduction in saturated fats **cannot be recommended** at present to prevent cardiovascular diseases and mortality."
 
 :::
 :::
@@ -159,18 +165,22 @@ It is not Clinical/methodological heterogeneity (differences/variation in study 
 ---
 
 
-### Yamada Details
+#### Yamada Audit: Reporting, Endpoints, and Interpretation Risk
 
 ::: {.smaller_table}
 
 
-- Yamada reports Risk Ratio results in the abstract, but Odds Ratios in the paper and charts. Numbers are the same, so appears to be just a labelling error.
+- Yamada reports Risk Ratio results in the abstract, but Odds Ratios in the paper and charts. Labeling error.
 - Risk Ratio and Odds Ratio are similar but not identical.
   - RR compares probabilities directly: “the event happened 20% less often.”
   - OR compares odds rather than probabilities, so it is a little less intuitive.
-- RR is usually easier to interpret
-- OR can make effects look a bit stronger when events are not rare.
+- RR is usually easier to interpret, OR can make effects look a bit stronger when events are not rare.
 
+::: {.fragment}
+
+- Show OR/RR charts, Note for Fig 4 and 5, LOO sensitivity analysis
+
+:::
 ::: {.fragment}
 
 **Myocardial Infarction and Any Coronary Artery Event (Fig 4 and 5)**
@@ -191,9 +201,9 @@ It is not Clinical/methodological heterogeneity (differences/variation in study 
 
 ---
 
-### Steen Details
+### Steen Audit: Display Typos
 
-::: {.smaller2}
+::: {.smaller}
 
 
 - Steen Figure 3 appears to contain two typos in the displayed event/total columns
@@ -204,6 +214,7 @@ It is not Clinical/methodological heterogeneity (differences/variation in study 
 - published RR column and pooled RR are correct
   - calculations do not reflect the typos in the table)
 
+- Show RR charts, LOO sensitivity analysis
 
 :::
 
@@ -238,20 +249,31 @@ It is not Clinical/methodological heterogeneity (differences/variation in study 
   - The strongest signal is for PUFA replacement reducing nonfatal MI
   - The RCT evidence is not decisive
   - Borderline CIs should not be overinterpreted in either direction
+  - Effects should be interpreted within the trial durations and adherence actually achieved
 
 :::
 :::
 
 ---
 
-### Possible Interpretations
+### Summary of Overall Pooled Estimates
 
+::: {.smaller2}
+
+::: {.fragment}
+
+Possible Interpretations:
+
+:::
+:::
 
 ::: {.smaller3}
 
+::: {.fragment}
 
 **A Signal Increasingly Diluted**
 
+:::
 ::: {.fragment}
 
 -  Assume lowering saturated fat has some real effect
@@ -259,7 +281,7 @@ It is not Clinical/methodological heterogeneity (differences/variation in study 
 -  We would expect to see it first in specific cardiovascular outcomes, like MI or non-fatal MI
 -  We would expect it less clearly in cardiovascular death
 -  And even less clearly in all-cause mortality, which is a more diluted endpoint 
--  In shorter, noisier trials, all-cause mortality or CVD mortality may show little or no separation, but might in longer trials.
+-  In shorter, noisier trials, all-cause mortality or CVD mortality may show little or no separation between control and experimental, but might in longer trials.
 
 
 :::
@@ -426,12 +448,7 @@ Used original 1989 version of Minnesota
 
 ### The Ideal RCT on Saturated Fat
 
-::: {.smaller2}
 
-Randomized Controlled Trial: \
-*- a study that randomly assigns people to different groups so underlying group differences are balanced*
-
-:::
 
 ::: {.smaller2}
 

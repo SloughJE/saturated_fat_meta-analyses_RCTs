@@ -316,50 +316,50 @@ lapply(models, summary)
 ############
 
 # published plot
-plot_yamada_rr(
-  dat     = dat_yamada_mi_pub,
-  fig_no  = 4,
-  outcome = "myocardial infarction\npublished",
-  xlim    = c(0.2, 5),
-  at      = c(0.2, 0.5, 1, 2, 5)
-)
+# plot_yamada_rr(
+#   dat     = dat_yamada_mi_pub,
+#   fig_no  = 4,
+#   outcome = "myocardial infarction\npublished",
+#   xlim    = c(0.2, 5),
+#   at      = c(0.2, 0.5, 1, 2, 5)
+# )
 
 # plot without Burr
 
-plot_yamada_rr(
-  dat     = dat_yamada_mi_no_burr,
-  fig_no  = 4,
-  outcome = "myocardial infarction\nBurr removed",
-  xlim    = c(0.2, 5),
-  at      = c(0.2, 0.5, 1, 2, 5)
-)
+# plot_yamada_rr(
+#   dat     = dat_yamada_mi_no_burr,
+#   fig_no  = 4,
+#   outcome = "myocardial infarction\nBurr removed",
+#   xlim    = c(0.2, 5),
+#   at      = c(0.2, 0.5, 1, 2, 5)
+# )
+# 
+# 
+# plot_yamada_rr(
+#   dat     = dat_yamada_mi_dart_nfmi,
+#   fig_no  = 4,
+#   outcome = "myocardial infarction\nnon-fatal MI substitution for Burr from DART",
+#   xlim    = c(0.2, 5),
+#   at      = c(0.2, 0.5, 1, 2, 5)
+# )
 
 
-plot_yamada_rr(
-  dat     = dat_yamada_mi_dart_nfmi,
-  fig_no  = 4,
-  outcome = "myocardial infarction\nnon-fatal MI substitution for Burr from DART",
-  xlim    = c(0.2, 5),
-  at      = c(0.2, 0.5, 1, 2, 5)
-)
 
-
-
-dat_yamada_mi_pub_no_rose <- dat_yamada_mi_pub %>%
-  filter(study != "Rose GA 1965 (c.1963)")
-
-
-dat_yamada_fig2_rr_no_ram = dat_yamada_fig2_rr %>%
-  filter(study!= "Ramsden CE 2013 (1966)")
-
-dat_yamada_fig3_rr_no_ram = dat_yamada_fig3_rr %>%
-  filter(study!= "Ramsden CE 2013 (1966)")
-
-dat_yamada_fig4_rr_no_ram = dat_yamada_fig4_rr %>%
-  filter(study!= "Ramsden CE 2013 (1966)")
-
-dat_yamada_fig5_rr_no_ram = dat_yamada_fig5_rr %>%
-  filter(study!= "Ramsden CE 2013 (1966)")
+# dat_yamada_mi_pub_no_rose <- dat_yamada_mi_pub %>%
+#   filter(study != "Rose GA 1965 (c.1963)")
+# 
+# 
+# dat_yamada_fig2_rr_no_ram = dat_yamada_fig2_rr %>%
+#   filter(study!= "Ramsden CE 2013 (1966)")
+# 
+# dat_yamada_fig3_rr_no_ram = dat_yamada_fig3_rr %>%
+#   filter(study!= "Ramsden CE 2013 (1966)")
+# 
+# dat_yamada_fig4_rr_no_ram = dat_yamada_fig4_rr %>%
+#   filter(study!= "Ramsden CE 2013 (1966)")
+# 
+# dat_yamada_fig5_rr_no_ram = dat_yamada_fig5_rr %>%
+#   filter(study!= "Ramsden CE 2013 (1966)")
 
 
 
@@ -374,12 +374,7 @@ dat_yamada_fig5_rr_no_ram = dat_yamada_fig5_rr %>%
 
 
 ########
-
-library(dplyr)
-library(tibble)
-library(meta)
-library(ggplot2)
-library(stringr)
+# LOO Sensitivity Analysis
 
 datasets <- list(
   "Figure 2: cardiovascular mortality" = dat_yamada_fig2_rr,
@@ -494,5 +489,5 @@ loo_reml <- make_loo_data(datasets, tau = "REML")
 plot_loo(loo_reml, "Yamada: Leave-one-out sensitivity analysis (REML)")
 
 # DL version
-loo_dl <- make_loo_data(datasets, tau = "DL")
-plot_loo(loo_dl, "Yamada: Leave-one-out sensitivity analysis (DL)")
+#loo_dl <- make_loo_data(datasets, tau = "DL")
+#plot_loo(loo_dl, "Yamada: Leave-one-out sensitivity analysis (DL)")

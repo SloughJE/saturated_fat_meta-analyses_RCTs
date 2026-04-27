@@ -1,3 +1,9 @@
+library(dplyr)
+library(tibble)
+library(meta)
+library(grid)
+library(ggplot2)
+library(stringr)
 
 #######################
 
@@ -486,5 +492,5 @@ steen_loo_dl <- bind_rows(
   lapply(steen_outcomes, analyze_steen_pufa_loo, tau = "DL")
 )
 
-plot_steen_pufa_loo_all("REML")
+#plot_steen_pufa_loo_all("REML")
 plot_steen_pufa_loo_all("DL")
