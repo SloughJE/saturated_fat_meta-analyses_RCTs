@@ -986,19 +986,23 @@ Same study, same underlying problems
 
 ### Overall Problems with the RCTs
 
-::: {.smaller_table}
+::: {.smaller_caption}
 
-- high dropout rate
-- short duration 
+- short duration / short actual exposure
+- high dropout, turnover, or intermittent exposure
 - small number of participants
 - institutional or otherwise unusual settings
 - limited, inconsistent or unknown saturated fat reduction
 - poor control and tracking of the actual diet
 - no, few, or sparse hard outcomes
-- different comparators, replacement nutrients, and co-interventions
 - trans-fat / historical diet environment
-- many and varied confounders
-- varied outcomes and varied interventions (some extreme)
+- many and varied potential confounders
+- trials are often pooled as if they test the same exposure and outcomes, but they do not
+  - varied outcomes and varied interventions (some extreme)
+  - inconsistent endpoint definitions and ascertainment, especially for nonfatal events
+  - different comparators, replacement nutrients, and co-interventions
+  - diet changes were often multi-component, not SFA-specific
+
 
 ::: {.fragment}
 
@@ -1086,24 +1090,29 @@ Which is more informative?
 ::: {.fragment}
 
 
-- Meta-analyses can increase precision and statistical power
-- But they cannot fix major flaws in the original studies
-- They cannot solve a poorly defined intervention or exposure contrast
-- Trials differ in population, setting, duration, comparator, replacement nutrient, and co-interventions
-- Achieved saturated fat reduction is limited, inconsistent, or sometimes unclear
-- Hard outcomes are sparse, and outcomes are not defined consistently across trials
-- Important historical features, including trans-fat exposure, differ across trials
-- The meta-analysis may be a more "precise" estimate of a very mixed and messy set of studies
-- More precise does not necessarily mean a clean estimate of the effect we actually care about
+- Meta-analyses can increase precision and statistical power.
+- But they cannot fix major flaws in the original studies.
+- They cannot make a poorly defined intervention into a well-defined one.
+- They cannot make heterogeneous trials answer a single clean question.
+- They cannot fully solve sparse, inconsistent, or selectively reported outcomes.
+
+:::
+::: {.fragment}
+
+- They can produce a narrower estimate of a messy evidence base.
+- They can hide important differences between trials behind a single pooled estimate
+- A more precise estimate is not necessarily a cleaner estimate
 
 
 :::
 
 ::: {.fragment}
 
-**A meta-analysis can improve precision, but it cannot turn a messy set of trials into a clean test of the question we care about**
+**A meta-analysis can make the answer look more precise without making it more valid.**
 
-- A narrower pooled estimate may look more definitive, without being a cleaner answer to the question we are asking.
+
+- A pooled estimate may be statistically tighter, but still not a clean estimate of the effect we actually care about.
+
 
 :::
 :::
@@ -1119,20 +1128,18 @@ Which is more informative?
 
 ::: {.smaller3}
 
-::: {.fragment}
-
 - Even with all the problems, is there any signal? 
   - Perhaps with specific replacement nutrients on heart attack / stroke outcomes
   - but with many caveats / limitations / low certainty
   
-:::
+
 ::: {.fragment}
 
-- What about no clear effect on cardiovascular or all-cause mortality?
-- Doesn't that support the conclusion that reducing saturated does not reduce these hard outcomes?
+- Results indicate no effect on cardiovascular or all-cause mortality.
+- That supports the conclusion that reducing saturated does **not** reduce hard outcomes.
 - From these trials, and meta-analyses, two reasonable interpretations:
-  - **yes**, this does suggest no meaningful effect (with limitations and low certainty)
-  - **no**, there is too much noise and too many limitations to support that conclusion
+  - Yes, results suggest no meaningful effect (with limitations and low certainty)
+  - No, there is too much noise and too many limitations to support that conclusion (we need more/different evidence)
 
 :::
 <br>
@@ -1155,7 +1162,7 @@ Which is more informative?
 
 ::: {.incremental}
 
-- The RCTs included in these meta-analyses are highly variable and have major problems in design, conduct, and applicability, making the pooled evidence unreliable.
+- RCTs in these meta-analyses are highly variable and have major problems in design, conduct, and applicability, making the pooled evidence unreliable.
 
 - They do not convincingly establish that reducing dietary saturated fat lowers the occurrence of these hard outcomes, or that it does not.
 
