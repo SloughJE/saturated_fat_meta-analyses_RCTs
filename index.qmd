@@ -373,7 +373,7 @@ Possible Interpretations:
 | 1992 | 1988 | [**STARS / Watts**](https://pubmed.ncbi.nlm.nih.gov/1347091/) | ~60 | 3 y | Men with established CHD | Low-SFA diet vs usual care | -7.0% | Sparse | Unclear | Tiny trial; angiography-focused |
 | 1994 | c.1992 | [**Black**](https://pubmed.ncbi.nlm.nih.gov/8145782/) | 133 | 2 y | People with non-melanoma skin cancer | Low-fat diet vs usual diet | -6.2% | Sparse | Low | Not a CVD trial |
 | 1997 | 1987 | [**Simon**](https://pubmed.ncbi.nlm.nih.gov/9121940/) | 194 | 2 y | Women at high breast-cancer risk | Low-fat diet vs usual diet | -6.1% | No | Low | Feasibility / cancer trial; deaths not clearly by arm |
-| 2001 | 1991 | [**Moy**](https://pubmed.ncbi.nlm.nih.gov/11832672/) | 267 | 2 y | Siblings of early-CHD patients with risk factors | Low-fat counseling vs usual care | -2.9% | Sparse | Low | No deaths; family-risk trial |
+| 2001 | 1991 | [**Moy**](https://pubmed.ncbi.nlm.nih.gov/11832672/) | 235 | 2 y | Siblings of early-CHD patients with risk factors | nurse dietary counseling vs usual physician care | -2.9% | Sparse | Low | No deaths; family-risk trial |
 | 2004 | 1988 | [**Ley**](https://pubmed.ncbi.nlm.nih.gov/14739050/) | 176 | 4.1 y mean | Impaired glucose tolerance / high-normal glucose | Reduced-fat program vs usual diet | -3.4% | Sparse | Low | Prediabetes trial; not CVD-primary |
 | 2006 | 1993 | [**WHI Dietary Modification**](https://pubmed.ncbi.nlm.nih.gov/16467234/) | 48,835 | 8.1 y mean | Postmenopausal women, with and without baseline CVD | Low-fat pattern with fruit/veg emphasis vs usual diet | -2.9% | Yes | Low | Mostly low-fat / carb-replacement trial, not a clean SFA test |
 | 2006 | 1994 | [**WINS**](https://pubmed.ncbi.nlm.nih.gov/17179478/) | 2437 | 5 y | Women with resected breast cancer | Low-fat counseling vs minimal counseling | -3.4% | Sparse | Low | Not a CVD trial; no combined CVD endpoint |
@@ -416,8 +416,8 @@ Used original version of Minnesota (not Ramsden re-evaluation)
 
 | Pub year | Start year | Trial | N | Duration | Population | Comparator | SFA change | Hard outcomes | Trans-fat issue | Major caveat |
 |-|-:|---|-:|--|---|---|--|--|--|---|
-| 1965 | c.1963 | [**Rose / St Mary’s (corn oil)**](https://pubmed.ncbi.nlm.nih.gov/14288105/) | 80 | 1.5–1.7 y avg, 2yr study | Men with angina or post-MI | Corn oil + fat restriction vs usual diet | NR | Limited | Unclear* | Tiny 3-arm trial; SFA not measured |
-| 1965 | c.1963 | [**Rose / St Mary’s (olive oil)**](https://pubmed.ncbi.nlm.nih.gov/14288105/) | 80 | 1.5–1.7 y avg, 2yr study | Men with angina or post-MI | Olive oil + fat restriction vs usual diet | NR | Yes | Unclear* | Tiny 3-arm trial; SFA not measured |
+| 1965 | c.1963 | [**Rose / St Mary’s (corn oil)**](https://pubmed.ncbi.nlm.nih.gov/14288105/) | 54 | 1.5–1.7 y avg, 2yr study | Men with angina or post-MI | Corn oil + fat restriction vs usual diet | NR | Limited | Unclear* | Tiny 3-arm trial; SFA not measured |
+| 1965 | c.1963 | [**Rose / St Mary’s (olive oil)**](https://pubmed.ncbi.nlm.nih.gov/14288105/) | 52 | 1.5–1.7 y avg, 2yr study | Men with angina or post-MI | Olive oil + fat restriction vs usual diet | NR | Yes | Unclear* | Tiny 3-arm trial; SFA not measured |
 | 1966 | 1956 | [**Oslo Diet Heart / Leren**](https://pubmed.ncbi.nlm.nih.gov/5228820/) | 412 | 5 y | Men with prior MI | Low-SFA advice + soy oil/fish vs usual diet | NR | Yes | Unclear* | SFA not directly measured; soy oil/fish cointervention |
 | 1968 | 1960 | [**MRC Soybean Oil**](https://pubmed.ncbi.nlm.nih.gov/4175085/) | 393 | 3.8 y mean | Men after first MI | Soybean oil + fat restriction vs usual diet | NR | Yes | Unclear* | Soy-oil supplement trial; SFA not measured |
 | 1969 | 1959 | [**LA Vet Admin / Dayton**](https://www.ahajournals.org/doi/10.1161/01.CIR.40.1S2.II-1) | 846 | max 8y, unclear avg | Semi-institutionalized men, mixed CHD status | Whole diet replacing about two-thirds of SFA with unsaturated fat | -10.2% | Yes | Probable | Partial feeding / institutional setting |
@@ -427,6 +427,7 @@ Used original version of Minnesota (not Ramsden re-evaluation)
 | 1994 | 1988 | [**Lyon Diet Heart**](https://pubmed.ncbi.nlm.nih.gov/9989963/) | 605 | 27 mo median | Post-MI patients | Mediterranean-type diet vs prudent Western diet | -3.4% | Yes | Low | Multifactor dietary pattern trial, not a clean SFA test, 2ndary prev. |
 | 1994 | c.1992 | [**Black**](https://pubmed.ncbi.nlm.nih.gov/8145782/) | 133 | 2 y | People with non-melanoma skin cancer | Low-fat diet vs usual diet | -6.2% | Sparse | Low | Not a CVD trial |
 | 2004 | 1988 | [**Ley**](https://pubmed.ncbi.nlm.nih.gov/14739050/) | 176 | 4.1 y mean | Impaired glucose tolerance / high-normal glucose | Reduced-fat program vs usual diet | -3.4% | Sparse | Low | Prediabetes trial; not CVD-primary |
+| 2001 | 1991 | [**Moy**](https://pubmed.ncbi.nlm.nih.gov/11832672/) | 235 | 2 y | Siblings of early-CHD patients with risk factors | nurse dietary counseling vs usual physician care | -2.9% | Sparse | Low | No deaths; family-risk trial |
 | 2006 | 1993 | [**WHI Dietary Modification**](https://pubmed.ncbi.nlm.nih.gov/16467234/) | 48,835 | 8.1 y mean | Postmenopausal women, with and without baseline CVD | Low-fat pattern with fruit/veg emphasis vs usual diet | -2.9% | Yes | Low | Mostly low-fat / carb-replacement trial, not a clean SFA test |
 | 2006 | 1994 | [**WINS**](https://pubmed.ncbi.nlm.nih.gov/17179478/) | 2437 | 5 y | Women with resected breast cancer | Low-fat counseling vs minimal counseling | -3.4% | Sparse | Low | Not a CVD trial; no combined CVD endpoint |
 | 1978 | 1966 | [**Sydney Diet Heart Study**](https://pubmed.ncbi.nlm.nih.gov/727035/) | 458 | 4.3 y mean | Men with prior MI | Safflower oil + safflower margarine vs usual diet | -3.7% | Yes | Probable | LA-specific substitution trial; margarine-era intervention |
@@ -446,7 +447,7 @@ Used original 1989 version of Minnesota
 
 ---
 
-### The Ideal RCT on Saturated Fat
+### Ideal RCT on Saturated Fat Reduction
 
 
 
@@ -454,7 +455,7 @@ Used original 1989 version of Minnesota
 
 ::: {.fragment}
 
-The ideal RCT on saturated fat?
+How to construct the RCT to answer our question?
 
 :::
 
@@ -976,6 +977,7 @@ Same study, same underlying problems
 | Lyon Diet Heart | Mediterranean-pattern intervention; small SFA difference; cannot isolate SFA effect; too short |
 | Black | Not designed as a heart-disease trial; very small; too few cardiovascular events; too short |
 | Ley | Not designed as a heart-disease trial; modest size; small SFA difference |
+| Moy | Short; small; small SFA difference; no deaths |
 | WHI Diet Modification | Mostly tested a lower-fat, higher-carb diet pattern; small SFA difference; weak test of SFA |
 | Amrita / Vijayakumar | Coconut-oil vs sunflower-oil comparison; all on statins; no clinical CVD endpoint; too short |
 
