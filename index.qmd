@@ -1210,3 +1210,31 @@ Where do we go from here?
 
 :::
 
+---
+
+### What Have We Learned
+
+::: {.smaller_table}
+
+- The question defines the answer.
+  - If the question is vague or broad, the evidence will be too.
+  - Precision in the question is required for a valid test.
+- Threshold-based conclusions are fragile.
+  - Small changes in data, assumptions, and parameters can flip results across arbitrary cutoffs
+    - p=0.05, CI crossing 1.0
+  - “Significant” vs “not significant” can obscure how uncertain the result actually is.
+
+- More statistical precision does not necessarily mean better evidence.
+
+- Meta-analyses are useful, but not always the final say.
+  - included study quality matters
+  - inclusion criteria, endpoint definitions, and sensitivity analyses matter
+
+- RCTs are preferred, but often not practical
+  - especially for messy interventions with messy conditions, and long durations
+  - Real-world interventions (especially diet) are rarely one-variable experiments.
+  - Outcomes that matter most can be the hardest to study well.
+
+**Recognize when evidence is strong and when it’s uncertain.**
+
+:::

@@ -75,5 +75,12 @@
     "title": "Is Saturated Fat Unhealthy?",
     "section": "Meta-analysis",
     "text": "Meta-analysis\n\n\n\nA method of combining evidence from similar studies\nusing quantitative methods (statistical techniques)\nMore precise conclusion (higher statistical power than a single study)\nStudies should be relatively similar in design and outcome\nThe top of the evidence hierarchy\n\nRandomized Controlled Trial:\n- a study that randomly assigns people to different groups so underlying group differences are balanced"
+  },
+  {
+    "objectID": "index.html#what-have-we-learned",
+    "href": "index.html#what-have-we-learned",
+    "title": "Is Saturated Fat Unhealthy?",
+    "section": "What Have We Learned",
+    "text": "What Have We Learned\n\n\nThe question defines the answer.\n\nIf the question is vague or broad, the evidence will be too.\nPrecision in the question is required for a valid test.\n\nThreshold-based conclusions are fragile.\n\nSmall changes in data or assumptions can flip results across arbitrary cutoffs (p=0.05, CI crossing 1.0).\n“Significant” vs “not significant” can obscure how uncertain the result actually is.\n\nMore statistical precision does not necessarily mean better evidence.\nMeta Analyses\n\nare not always the final say\nincluded study quality matters\nsensitivity analyses can be important\n\nRCTs are great\n\nsometimes RCTs cannot practically answer our question\nespecially for messy interventions with messy conditions, and long durations\n\nOutcomes that matter most can be the hardest to study well.\nReal-world interventions (especially diet) are rarely one-variable experiments."
   }
 ]
