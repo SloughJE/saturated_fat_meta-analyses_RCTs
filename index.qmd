@@ -60,8 +60,11 @@ So which is it?
 - The top of the [evidence hierarchy](https://guides.library.ucdavis.edu/systematic-reviews/levels-of-evidence)
 
 
-Randomized Controlled Trial: \
-*- a study that randomly assigns people to different groups so underlying group differences are balanced*
+**Randomized Controlled Trial**: 
+
+- a study that randomly assigns people to different groups so underlying differences are balanced
+
+- helps isolate whether an intervention caused a specific outcome
 
 :::
 
@@ -1230,7 +1233,7 @@ Where do we go from here?
   - included study quality matters
   - inclusion criteria, endpoint definitions, and sensitivity analyses matter
 
-- RCTs are preferred, but often not practical
+- RCTs are generally preferred, but often not practical
   - especially for messy interventions with messy conditions, and long durations
   - Real-world interventions (especially diet) are rarely one-variable experiments.
   - Outcomes that matter most can be the hardest to study well.
