@@ -225,6 +225,40 @@ It is not Clinical/methodological heterogeneity (differences/variation in study 
 
 ---
 
+### Steen Audit: Absolute Risk Reduction
+
+::: {.smaller_table}
+
+Steen reports absolute risk reductions by baseline cardiovascular risk group.
+
+- "Among persons at high cardiovascular risk...important reductions in mortality..."
+
+RR tells us the *relative* effect, but ARR depends on the patient’s starting risk:
+
+
+ARR = baseline risk × (1 − RR)
+
+- Pooled RR from diet trials: **0.86** for nonfatal MI
+- High-risk baseline risk from CTT* : **85 per 1000 over 5 years**
+- Treated risk: **85 × 0.86 = 73 per 1000**
+- ARR: **85 − 73 = 12 fewer nonfatal MIs per 1000 over 5 years**
+
+Reasonable, but the ARR is modeled, not directly observed. It assumes:
+
+- Applicability depends on whether the person has a similar underlying 5-year MI risk to the CTT high-risk group
+- The same RR applies across baseline-risk groups
+- Five-year risk is an appropriate time frame (could be higher for longer)
+
+:::
+::: {.caption_gray}
+
+CTT = **Cholesterol Treatment Trialists’ Collaboration**, a large meta-analysis group that pooled individual/statin trial data and reported cardiovascular event risks by baseline risk category.
+
+
+:::
+
+---
+
 ### Yamada vs. Steen Overall Comparison
 
 ::: {.smaller_table}
@@ -1123,6 +1157,14 @@ Which is more informative?
 
 
 # More Meta-anlayses on these RCTs will not help
+
+---
+
+### "This trial base is unlikely to resolve extant debates about the relative benefits of SFA reduction" 
+
+<br>
+
+Steen 2025
 
 ---
 
