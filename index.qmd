@@ -408,7 +408,6 @@ Possible Interpretations:
 
 Used Ramsden re-evaluation of Sydney study
 
-Used original version of Minnesota (not Ramsden re-evaluation)
 
 
 :::
@@ -440,9 +439,8 @@ Used original version of Minnesota (not Ramsden re-evaluation)
 
 Split analysis by: Replace SFA by PUFA primarily or other macronutrient primarily
 
-Used original 1978 version of Sydney
+Used original 1978 trial label/citation for Sydney, but appears to use Ramsden-recovered cause-specific mortality.
 
-Used original 1989 version of Minnesota
 
 :::
 
@@ -703,13 +701,13 @@ Minnesota Coronary Experiment: the 2016 BMJ paper was broader than Sydney. It wa
 
 - diets assessed by interview and/or food log three times during the first year and twice yearly thereafter
 
-- Group P: saturated fatty acids contributed 13.5% and polyunsaturated fatty acids 8.9% of total calories.
-- Group F: consumed a derived 9.8% of calories from saturated fatty acids and 15.1% from polyunsaturates. 
+- Group P (control): saturated fatty acids contributed 13.5% and polyunsaturated fatty acids 8.9% of total calories.
+- Group F (intervention): consumed a derived 9.8% of calories from saturated fatty acids and 15.1% from polyunsaturates. 
 
 :::
 :::{.fragment}
 
-Result: "Survival was slightly better in the second group." (low sat fat) (show figure 2)
+Result: "Survival was slightly better in the second group." (high sat fat) (show figure 2)
 :::
 
 
@@ -760,35 +758,29 @@ Result: "Survival was slightly better in the second group." (low sat fat) (show 
 - data recovered from the original trial dataset stored on a nine-track magnetic tape 
 - obtained from original investigator
 - median follow-up of 39 months
+- recovered and reported the CVD and CHD mortality by group, which the original paper had not reported.
 
 :::
 
 :::{.fragment}
 
-Results:
+**Reported in original study**:
+
+- "The **intervention group** (n=221) had **higher rates of death than controls** (n=237) (all cause 17.6% v 11.8%, hazard ratio 1.62 (95% confidence interval 1.00 to 2.64), P=0.05"
+
+**Ramsden found and reported**:
+
+- cardiovascular disease 17.2% v 11.0%, 1.70 (1.03 to 2.80), P=0.04 
+- coronary heart disease 16.3% v 10.1%, 1.74 (1.04 to 2.92), P=0.04
 
 :::
-:::{.fragment}
 
-"The intervention group (n=221) had higher rates of death than controls (n=237) (all cause 17.6% v 11.8%, hazard ratio 1.62 (95% confidence interval 1.00 to 2.64), P=0.05; cardiovascular disease 17.2% v 11.0%, 1.70 (1.03 to 2.80), P=0.04; coronary heart disease 16.3% v 10.1%, 1.74 (1.04 to 2.92), P=0.04)."
+::: {.fragment}
+Ramsden (recovered data):
 
-:::
-
-:::{.fragment}
-
-Same problems as original:
-
-:::
-:::{.fragment}
-
-- intervention changed linoleic acid and saturated fat, but also monounsaturated fat and dietary cholesterol, 
-- trans fat 
-- Original authors say the study effectively became a multifactorial study. 
-  - large changes in smoking, diet, body weight, lifestyle, and physical activity before and after entry.
-  - number of subjects and the duration may have been insufficient.
-- prognosis was driven mainly by **severity of underlying coronary/myocardial disease**, 
-  - dietary variables not showing predictive power in their multivariate analysis.
-- main results borderline significant
+- showed the excess deaths were primarily cardiovascular and coronary
+- cause-specific mortality by group had not been reported previously
+- "incomplete" reporting...
 
 :::
 :::
