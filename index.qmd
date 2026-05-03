@@ -243,6 +243,9 @@ ARR = baseline risk × (1 − RR)
 - Treated risk: **85 × 0.86 = 73 per 1000**
 - ARR: **85 − 73 = 12 fewer nonfatal MIs per 1000 over 5 years**
 
+- Treated risk = 8.5% × 0.86 = 7.31%
+- ARR = 8.5% − 7.31% = 1.19 percentage points
+
 Reasonable, but the ARR is modeled, not directly observed. It assumes:
 
 - Applicability depends on whether the person has a similar underlying 5-year MI risk to the CTT high-risk group
