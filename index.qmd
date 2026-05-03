@@ -175,9 +175,7 @@ It is not Clinical/methodological heterogeneity (differences/variation in study 
 
 - Yamada reports Risk Ratio results in the abstract, but Odds Ratios in the paper and charts. Labeling error.
 - Risk Ratio and Odds Ratio are similar but not identical.
-  - RR compares probabilities directly: “the event happened 20% less often.”
-  - OR compares odds rather than probabilities, so it is a little less intuitive.
-- RR is usually easier to interpret, OR can make effects look a bit stronger when events are not rare.
+  - RR compares probabilities, OR compares odds (less intuitive) 
 
 ::: {.fragment}
 
@@ -189,14 +187,18 @@ It is not Clinical/methodological heterogeneity (differences/variation in study 
 **Myocardial Infarction and Any Coronary Artery Event (Fig 4 and 5)**
 
 - Same Burr/DART study counts in Figure 4, “myocardial infarction,” and Figure 5, “any coronary artery event”
-- In the original Burr/DART table, those counts are 132 vs 144 for **IHD events**, not MI
-  - Table separately reports non-fatal MI = 35 vs 47
+- In the original Burr/DART table, those counts are **132 vs 144** for **IHD events**, not clearly MI
+  - table separately reports non-fatal MI = **35 vs 47**
 - Burr defines IHD events = `IHD deaths + non-fatal MI`
 
-- Yamada’s MI endpoint appears to mean `fatal + non-fatal MI`, but Burr does not report that endpoint
-- Yamada uses Burr’s broader IHD-event counts for the MI outcome
-- The broader counts move Burr much closer to no effect: 35 vs 47 becomes 132 vs 144
-- Burr has large weight and Yamada’s pooled MI result is **borderline** (Fig 4), this endpoint choice could materially affect the **overall MI conclusion and the entire paper's conclusion.**
+- Yamada appears to use Burr’s broader IHD-event counts for the MI outcome
+  - this would only match `fatal + non-fatal MI` if every single IHD death was a fatal MI
+  - theoretically possible, but unlikely and the choice is not justified by Yamada
+
+- Burr has large weight and Yamada’s pooled MI result is **borderline**
+- This endpoint choice could materially affect the **overall MI conclusion and the paper’s conclusion**
+
+“any coronary artery event” could reasonably use Burr’s IHD-event count, but “myocardial infarction” should not also use that same count. Burr does not report the fatal-plus-nonfatal MI count. 
 
 :::
 
