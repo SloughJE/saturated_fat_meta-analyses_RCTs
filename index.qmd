@@ -372,7 +372,7 @@ Possible Interpretations:
 | 1979 | 1973 | [**Houtsmuller**](https://pubmed.ncbi.nlm.nih.gov/7342100/) | 102 | Up to 6 y | Newly diagnosed diabetes | High-linoleic modified-fat diet vs usual diabetic diet | NR | Limited | Unclear* | Retinopathy/diabetes focus; SFA not reported |
 | 1983 | 1959 | [**Finnish Mental Hospital (Women)**](https://pubmed.ncbi.nlm.nih.gov/6840954/) | ~357 | 6 y per arm | Institutionalized middle-aged women without CHD | Hospital SCL diet vs normal hospital diet | NR | Limited | Probable | Non-randomized cluster crossover; open enrollment |
 | 1989 | 1983 | [**DART / Burr**](https://pubmed.ncbi.nlm.nih.gov/2571009/) | 2033 | 2 y | Men recovering from MI | Lower-fat / higher-P:S advice vs usual advice | -4.0% | Yes | Unclear* | Factorial trial; only 2 years |
-| 1989 | 1968 | [**Minnesota Coronary / Frantz**](https://pubmed.ncbi.nlm.nih.gov/2643423/) | 9057 | Avg 1 y, max 4.5 y | Institutionalized men and women without CHD | Corn oil + corn-oil margarine vs control diet | -9.1% | Yes | Probable | Open enrollment; average exposure short |
+| 1989 | 1968 | [**Minnesota Coronary / Frantz**](https://pubmed.ncbi.nlm.nih.gov/2643423/) | 9057 | Avg 1 y, max 4.5 y | Institutionalized men and women; mixed CHD status | Corn oil + corn-oil margarine vs control diet | -9.1% | Yes | Probable | Open enrollment; average exposure short |
 | 1992 | 1988 | [**STARS / Watts**](https://pubmed.ncbi.nlm.nih.gov/1347091/) | ~60 | 3 y | Men with established CHD | Low-SFA diet vs usual care | -7.0% | Sparse | Unclear | Tiny trial; angiography-focused |
 | 1994 | c.1992 | [**Black**](https://pubmed.ncbi.nlm.nih.gov/8145782/) | 133 | 2 y | People with non-melanoma skin cancer | Low-fat diet vs usual diet | -6.2% | Sparse | Low | Not a CVD trial |
 | 1997 | 1987 | [**Simon**](https://pubmed.ncbi.nlm.nih.gov/9121940/) | 194 | 2 y | Women at high breast-cancer risk | Low-fat diet vs usual diet | -6.1% | No | Low | Feasibility / cancer trial; deaths not clearly by arm |
@@ -394,11 +394,11 @@ Possible Interpretations:
 |-|-:|---|-:|--|---|---|--|--|---|----|
 | 1965 | c.1963 | [**Rose / St Mary’s**](https://pubmed.ncbi.nlm.nih.gov/14288105/) | 80 | 1.5–1.7 y avg, 2yr study | Men with angina or post-MI | Corn oil or olive oil + fat restriction vs usual diet | NR | Limited | Unclear* | Tiny 3-arm trial; SFA not measured |
 | 1966 | 1956 | [**Oslo Diet Heart / Leren**](https://pubmed.ncbi.nlm.nih.gov/5228820/) | 412 | 5 y | Men with prior MI | Low-SFA advice + soy oil/fish vs usual diet | NR | Yes | Unclear* | SFA not directly measured; soy oil/fish cointervention |
-| 1968 | 1960 | [**MRC Soybean Oil**](https://pubmed.ncbi.nlm.nih.gov/4175085/) | 393 | 3.8 y mean | Men after first MI | Soybean oil + fat restriction vs usual diet | NR | Yes | Unclear* | Soy-oil supplement trial; SFA not measured |
+| 1968 | 1960 | [**MRC Soybean Oil**](https://pubmed.ncbi.nlm.nih.gov/4175085/) | 393 | 3.8 y mean | Men after first MI | Soybean oil + fat restriction vs usual diet | NR | Limited | Unclear* | Soy-oil supplement trial; SFA not measured |
 | 1969 | 1959 | [**LA Vet Admin / Dayton**](https://www.ahajournals.org/doi/10.1161/01.CIR.40.1S2.II-1) | 846 | max 8y, unclear avg | Semi-institutionalized men, mixed CHD status | Whole diet replacing about two-thirds of SFA with unsaturated fat | -10.2% | Yes | Probable | Partial feeding / institutional setting |
 | 2013 | 1966 | [**Sydney Diet Heart Study** (Ramsden)](https://pubmed.ncbi.nlm.nih.gov/23386268/) | 458 | 4.3 y mean | Men with prior MI | Safflower oil + safflower margarine vs usual diet | -3.7% | Yes | Probable | LA-specific substitution trial; margarine-era intervention |
 | 1989 | 1983 | [**DART / Burr**](https://pubmed.ncbi.nlm.nih.gov/2571009/) | 2033 | 2 y | Men recovering from MI | Lower-fat / higher-P:S advice vs usual advice | -4.0% | Yes | Unclear | Factorial trial; only 2 years |
-| 1989 | 1968 | [**Minnesota Coronary / Frantz**](https://pubmed.ncbi.nlm.nih.gov/2643423/) | 9057 | Avg 1 y, max 4.5 y | Institutionalized men and women without CHD | Corn oil + corn-oil margarine vs control diet | -9.1% | Yes | Probable | Open enrollment; average exposure short |
+| 1989 | 1968 | [**Minnesota Coronary / Frantz**](https://pubmed.ncbi.nlm.nih.gov/2643423/) | 9057 | Avg 1 y, max 4.5 y | Institutionalized men and women; mixed CHD status | Corn oil + corn-oil margarine vs control diet | -9.1% | Yes | Probable | Open enrollment; average exposure short |
 | 1992 | 1988 | [**STARS / Watts**](https://pubmed.ncbi.nlm.nih.gov/1347091/) | ~60 | 3 y | Men with established CHD | Low-SFA diet vs usual care | -7.0% | Sparse | Unclear | Tiny trial; angiography-focused |
 | 2016 | 2009 | [**Amrita / Vijayakumar**](https://pubmed.ncbi.nlm.nih.gov/27543472/) | 200 | 2 y | Patients with stable CAD | Sunflower oil vs coconut oil | NR | Sparse | Low | Oil-vs-oil trial; short; no CVD endpoints |
 
@@ -421,10 +421,10 @@ Used Ramsden re-evaluation of Sydney study
 | 1965 | c.1963 | [**Rose / St Mary’s (corn oil)**](https://pubmed.ncbi.nlm.nih.gov/14288105/) | 54 | 1.5–1.7 y avg, 2yr study | Men with angina or post-MI | Corn oil + fat restriction vs usual diet | NR | Limited | Unclear* | Tiny 3-arm trial; SFA not measured |
 | 1965 | c.1963 | [**Rose / St Mary’s (olive oil)**](https://pubmed.ncbi.nlm.nih.gov/14288105/) | 52 | 1.5–1.7 y avg, 2yr study | Men with angina or post-MI | Olive oil + fat restriction vs usual diet | NR | Yes | Unclear* | Tiny 3-arm trial; SFA not measured |
 | 1966 | 1956 | [**Oslo Diet Heart / Leren**](https://pubmed.ncbi.nlm.nih.gov/5228820/) | 412 | 5 y | Men with prior MI | Low-SFA advice + soy oil/fish vs usual diet | NR | Yes | Unclear* | SFA not directly measured; soy oil/fish cointervention |
-| 1968 | 1960 | [**MRC Soybean Oil**](https://pubmed.ncbi.nlm.nih.gov/4175085/) | 393 | 3.8 y mean | Men after first MI | Soybean oil + fat restriction vs usual diet | NR | Yes | Unclear* | Soy-oil supplement trial; SFA not measured |
+| 1968 | 1960 | [**MRC Soybean Oil**](https://pubmed.ncbi.nlm.nih.gov/4175085/) | 393 | 3.8 y mean | Men after first MI | Soybean oil + fat restriction vs usual diet | NR | Limited | Unclear* | Soy-oil supplement trial; SFA not measured |
 | 1969 | 1959 | [**LA Vet Admin / Dayton**](https://www.ahajournals.org/doi/10.1161/01.CIR.40.1S2.II-1) | 846 | max 8y, unclear avg | Semi-institutionalized men, mixed CHD status | Whole diet replacing about two-thirds of SFA with unsaturated fat | -10.2% | Yes | Probable | Partial feeding / institutional setting |
 | 1989 | 1983 | [**DART / Burr**](https://pubmed.ncbi.nlm.nih.gov/2571009/) | 2033 | 2 y | Men recovering from MI | Lower-fat / higher-P:S advice vs usual advice | -4.0% | Yes | Unclear* | Factorial trial; only 2 years |
-| 1989 | 1968 | [**Minnesota Coronary / Frantz**](https://pubmed.ncbi.nlm.nih.gov/2643423/) | 9057 | Avg 1 y, max 4.5 y | Institutionalized men and women without CHD | Corn oil + corn-oil margarine vs control diet | -9.1% | Yes | Probable | Open enrollment; average exposure short |
+| 1989 | 1968 | [**Minnesota Coronary / Frantz**](https://pubmed.ncbi.nlm.nih.gov/2643423/) | 9057 | Avg 1 y, max 4.5 y | Institutionalized men and women; mixed CHD status | Corn oil + corn-oil margarine vs control diet | -9.1% | Yes | Probable | Open enrollment; average exposure short |
 | 1992 | 1988 | [**STARS / Watts**](https://pubmed.ncbi.nlm.nih.gov/1347091/) | ~60 | 3 y | Men with established CHD | Low-SFA diet vs usual care | -7.0% | Sparse | Unclear | Tiny trial; angiography-focused |
 | 1994 | 1988 | [**Lyon Diet Heart**](https://pubmed.ncbi.nlm.nih.gov/9989963/) | 605 | 27 mo median | Post-MI patients | Mediterranean-type diet vs prudent Western diet | -3.4% | Yes | Low | Multifactor dietary pattern trial, not a clean SFA test, 2ndary prev. |
 | 1994 | c.1992 | [**Black**](https://pubmed.ncbi.nlm.nih.gov/8145782/) | 133 | 2 y | People with non-melanoma skin cancer | Low-fat diet vs usual diet | -6.2% | Sparse | Low | Not a CVD trial |
@@ -436,6 +436,8 @@ Used Ramsden re-evaluation of Sydney study
 
 :::
 ::: {.smaller_caption}
+
+Only trials for hard endpoints included
 
 Split analysis by: Replace SFA by PUFA primarily or other macronutrient primarily
 
@@ -656,7 +658,7 @@ Show Fig 6. Life-table graph
   - subgroup analysis who were on diet > 1 year, and cholesterol data at baseline / follow-up
   - after randomization, change inclusion criteria...
   - post hoc cholesterol–mortality analysis not result of RCT
-- their meta-analysis used results from original paper, so no new RCT information 
+- their meta-analysis used results from original paper
 - inconsistencies across recovered datasets/reports
 - all the problems from original 
 
@@ -685,7 +687,7 @@ Minnesota Coronary Experiment: the 2016 BMJ paper was broader than Sydney. It wa
 :::{.fragment}
 
 - Original Paper published in 1978, trial began in 1966
-- secondary intervention (all already had heart attack)
+- secondary intervention (with recent coronary disease)
 - 458 men with coronary heart disease, aged 30-59
 - 2 to 7 years. 
 
