@@ -115,9 +115,9 @@ So which is it?
 - Overall, found no significant reduction in:
   - all-cause mortality, cardiovascular mortality, nonfatal myocardial infarction, stroke
 - However, replacement by PUFA for nonfatal MI -> significant reduction
-- In 5 year period, when stratified by baseline cardiovascular risk, with 'predefined thresholds':
-  - In low cardiovascular risk groups, the **point estimate** suggests an "unimportant effect". 
-  - In high cardiovascular risk groups, the **point estimate** suggests an "important effect".
+- Relative risks were translated into 5-year absolute risk differences by baseline cardiovascular risk.
+  - Low-risk groups: estimated absolute benefit below their threshold for importance.
+  - High-risk groups: estimated absolute benefit above their threshold for importance.
   
 :::
 :::
@@ -624,7 +624,8 @@ Show Fig 6. Life-table graph
 
 **Results**:
 
-- intervention group lowered **total** cholesterol but no mortality benefit in full randomized cohort or for any prespecified subgroup
+- In the ≥1-year cohort, greater cholesterol reduction was associated with higher mortality; (observational association within the trial, not the primary randomized comparison)
+
 - "22% higher risk of death for each 30 mg/dL (0.78 mmol/L) reduction in serum cholesterol in covariate adjusted...models"
 
 "Findings...add to growing evidence that incomplete publication has contributed to overestimation of the benefits of replacing saturated fat with vegetable oils rich in linoleic acid."
@@ -880,7 +881,7 @@ The carcinoma issue:
 - fewer fatal atherosclerotic events on the intervention diet, but a borderline excess of carcinoma deaths. 
 - trial authors treated that cancer signal as concerning but inconclusive
 
-- overall: 31 carcinoma deaths in intervention group; 17 in the control group (P=0.06). Mortality almost equal. 
+- overall: 31 carcinoma deaths in intervention group; 17 in the control group (P=0.06). Total mortality almost equal. 
 
 :::
 :::{.fragment}
@@ -1134,7 +1135,7 @@ Which is more informative?
 
 ::: {.fragment}
 
-- Results indicate no effect on cardiovascular or all-cause mortality.
+- Results show no clear reduction in cardiovascular or all-cause mortality.
 - That supports the conclusion that reducing saturated does **not** reduce hard outcomes.
 - From these trials, and meta-analyses, two reasonable interpretations:
   - Yes, results suggest no meaningful effect (with limitations and low certainty)
@@ -1157,7 +1158,7 @@ Which is more informative?
 
 ## Conclusion
 
-::: {.smaller2}
+::: {.smaller3}
 
 ::: {.incremental}
 
@@ -1165,9 +1166,11 @@ Which is more informative?
 
 - They do not convincingly establish that reducing dietary saturated fat lowers the occurrence of these hard outcomes, or that it does not.
 
+- Single-trial storytelling is unreliable.
 - A signal may be present, but increasingly diluted as outcomes move from MI/coronary events to cardiovascular and all-cause mortality. Longer and cleaner trials would be needed to detect it (probably impractical). 
 
-- More meta-analyses of RCTs on saturated fat and hard cardiovascular or mortality endpoints won't help
+- More meta-analyses on these RCTs won't help
+
 
 :::
 ::: {.fragment}
