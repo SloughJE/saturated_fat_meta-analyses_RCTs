@@ -437,7 +437,7 @@ Used Ramsden re-evaluation of Sydney study
 :::
 ::: {.smaller_caption}
 
-Only trials for hard endpoints included
+Only trials contributing to hard-endpoint analyses are shown.
 
 Split analysis by: Replace SFA by PUFA primarily or other macronutrient primarily
 
