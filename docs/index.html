@@ -2668,21 +2668,34 @@ display:block!important;
 <section class="slide level2">
 
 <h3 id="ci-precision-and-overconfidence">CI Precision and Overconfidence</h3>
-<div class="smaller3">
+<div class="smaller_table">
 <ul>
 <li><p>CI for a study’s RR is based on the event counts and the <strong>number of people in each group</strong>.</p></li>
-<li><p>If the full randomized group is used, a trial with high turnover (or short exposure) can appear statistically precise.</p></li>
+<li><p>If a trial has high turnover or short exposure, the CI can still look statistically precise.</p></li>
 <li><p>A tight CI may overstate the precision of a trial for long-term saturated fat reduction.</p></li>
-<li><p>For a long-term diet question, the relevant information is closer to <strong>time actually spent on the assigned diet</strong>, not only the number randomized.</p></li>
+<li><p>In a meta-analysis, that same tight CI can also give the trial more weight.</p>
+<ul>
+<li>so the trial may appear <strong>too precise on its own</strong> and <strong>overweighted in the pooled estimate</strong></li>
+</ul></li>
 </ul>
 <div class="fragment">
 <p>Minnesota Example:</p>
 <ul>
-<li>Large randomized cohort: <strong>4541 intervention vs 4516 control</strong>.</li>
-<li>Open-enrollment institutional trial with substantial turnover</li>
-<li>Yamada and Steen used the full randomized group counts</li>
-<li>Because the sample size is very large, Minnesota receives high weight and has a tight CI.</li>
-<li>But that CI may overstate how precise the trial is for <strong>long-term saturated fat reduction</strong>.</li>
+<li>Described as a <strong>4.5-year trial</strong>, with <strong>4541 intervention vs 4516 control</strong></li>
+<li>Open enrollment + high turnover + intermittent exposure meant much shorter avg exposure of 384 days</li>
+<li>Most meta-analyses the full randomized cohort counts to calculate the CI</li>
+<li>This gives Minnesota tight CI and a high weight in a meta-analysis</li>
+<li>The CI may overstate precision if read as evidence from a <strong>4.5-year saturated-fat-reduction trial</strong>.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><p>For a long-term diet question, the relevant information is closer to <strong>time actually spent on the assigned diet</strong>, not only the number randomized.</p></li>
+<li><p>Can partly address this with time-to-event, person-time, adherence-adjusted, and dropout sensitivity analyses</p>
+<ul>
+<li>these require much more detailed follow-up records, repeated exposure/adherence data, and more complex modeling assumptions</li>
+</ul></li>
+<li><p>Meta-analyses can use those estimates only if trials report them in comparable ways.</p></li>
 </ul>
 </div>
 </div>
@@ -2761,29 +2774,21 @@ display:block!important;
 
 <h3 id="signal-in-the-noise">Signal in the Noise</h3>
 <div class="smaller3">
-<ul>
-<li>Even with all the problems, is there any signal?
-<ul>
-<li>Perhaps with specific replacement nutrients on heart attack / stroke outcomes</li>
-<li>but with many caveats / limitations / low certainty</li>
-</ul></li>
-</ul>
+<p>Even with all the problems, is there any signal in the results?</p>
 <div class="fragment">
+<p><strong>Taken at face value</strong>:</p>
 <ul>
-<li>Results show no clear reduction in cardiovascular or all-cause mortality.</li>
-<li>That supports the conclusion that reducing saturated does <strong>not</strong> reduce hard outcomes.</li>
-<li>From these trials, and meta-analyses, two reasonable interpretations:
-<ul>
-<li>Yes, results suggest no meaningful effect (with limitations and low certainty)</li>
-<li>No, there is too much noise and too many limitations to support that conclusion (we need more/different evidence)</li>
-</ul></li>
+<li>No clear reduction in cardiovascular or all-cause mortality.</li>
+<li>There may be a benefit for more specific cardiovascular outcomes, especially heart attacks, with specific replacement nutrients (PUFA)</li>
+<li>but with many caveats / limitations / low certainty</li>
 </ul>
 </div>
-<p><br></p>
 <div class="fragment">
+<p><strong>With some interpretation</strong>:</p>
 <ul>
-<li>Each side picks their preferred trials or meta-analyses and outcomes.</li>
-<li>Each side argues that their preferred evidence deserves more weight</li>
+<li>A possible benefit signal appears first where we would expect it: heart attacks and specific cardiovascular events.</li>
+<li>If we had longer, cleaner trials, that signal might become clearer in cardiovascular death and eventually all-cause mortality.</li>
+<li>But these trials are too messy to prove that confidently.</li>
 </ul>
 </div>
 </div>
@@ -2793,10 +2798,10 @@ display:block!important;
 <div class="smaller3">
 <ul>
 <li class="fragment"><p>RCTs in these meta-analyses are highly variable and have major problems in design, conduct, and applicability, making the pooled evidence unreliable.</p></li>
-<li class="fragment"><p>They do not convincingly establish that reducing dietary saturated fat lowers the occurrence of these hard outcomes, or that it does not.</p></li>
-<li class="fragment"><p>Single-trial storytelling is unreliable.</p></li>
+<li class="fragment"><p>The meta-analyses do not unequivocally establish that reducing dietary saturated fat lowers the occurrence of these hard outcomes, or that it does not.</p></li>
 <li class="fragment"><p>A signal may be present, but increasingly diluted as outcomes move from MI/coronary events to cardiovascular and all-cause mortality. Longer and cleaner trials would be needed to detect it (probably impractical).</p></li>
-<li class="fragment"><p>More meta-analyses on these RCTs won’t help</p></li>
+<li class="fragment"><p>Single-trial storytelling is unreliable.</p></li>
+<li class="fragment"><p>More meta-analyses on these RCTs probably won’t help</p></li>
 </ul>
 <div class="fragment">
 <ul>
@@ -2823,7 +2828,7 @@ display:block!important;
 <li>Mechanistic / biological evidence</li>
 <li>Animal experimental evidence</li>
 <li>Human surrogate-outcome RCTs</li>
-<li>Observational studies</li>
+<li>Human observational studies</li>
 </ul>
 </div>
 </section>
@@ -2832,37 +2837,40 @@ display:block!important;
 <h3 id="what-have-we-learned">What Have We Learned</h3>
 <div class="smaller_table">
 <ul>
-<li><p>The question defines the answer.</p>
+<li><p><strong>The question defines the answer</strong>: if the question is vague or broad, the evidence will be too.</p>
 <ul>
-<li>If the question is vague or broad, the evidence will be too.</li>
 <li>Precision in the question is required for a valid test.</li>
 </ul></li>
-<li><p>Threshold-based conclusions are fragile.</p>
+<li><p><strong>Consistency matters</strong>: evidence is stronger when different studies, outcomes, and methods point in the same direction</p></li>
+<li><p><strong>“No clear effect” is not the same as “proof of no effect”</strong>: weak, short, or messy studies may fail to detect a real effect</p></li>
+<li><p><strong>Threshold-based conclusions are fragile</strong>: small changes in data, assumptions, and parameters can flip results across arbitrary cutoffs (p=0.05, CI crossing 1.0)</p>
 <ul>
-<li>Small changes in data, assumptions, and parameters can flip results across arbitrary cutoffs
-<ul>
-<li>p=0.05, CI crossing 1.0</li>
-</ul></li>
 <li>“Significant” vs “not significant” can obscure how uncertain the result actually is.</li>
 </ul></li>
-<li><p>More statistical precision does not necessarily mean better evidence.</p></li>
-<li><p>Meta-analyses are useful, but not always the final say.</p>
+<li><p><strong>More statistical precision does not necessarily mean better evidence</strong>:</p>
+<ul>
+<li>A tighter estimate can still come from messy data or a poorly defined comparison.</li>
+</ul></li>
+<li><p><strong>Meta-analyses are generally stronger evidence</strong> but they cannot fix poor quality trials</p>
 <ul>
 <li>included study quality matters</li>
 <li>inclusion criteria, endpoint definitions, and sensitivity analyses matter</li>
+<li>pooling studies can reduce random error, but not necessarily bias or poor design</li>
 </ul></li>
-<li><p>RCTs are generally preferred, but often not practical</p>
+<li><p><strong>RCTs are powerful</strong>, but only if the trial actually tests the question well.</p>
 <ul>
-<li>especially for messy interventions with messy conditions, and long durations</li>
-<li>Real-world interventions (especially diet) are rarely one-variable experiments.</li>
-<li>Outcomes that matter most can be the hardest to study well.</li>
+<li>randomization doesn’t fix weak adherence, short exposure, poor tracking, or unclear interventions</li>
+<li>diet and lifestyle interventions are rarely one-variable experiments</li>
+<li>outcomes that matter most can be the hardest to study well.</li>
 </ul></li>
 </ul>
-<p><strong>Recognize when evidence is strong and when it’s uncertain.</strong></p>
 </div>
-
-
 </section></section>
+<section id="recognize-when-evidence-is-strong-and-when-its-uncertain" class="title-slide slide level1 center">
+<h1>Recognize when evidence is strong and when it’s uncertain</h1>
+
+
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
