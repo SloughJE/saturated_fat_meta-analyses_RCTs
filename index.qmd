@@ -346,9 +346,9 @@ Possible Interpretations:
 
 ---
 
-### Risk Ratio vs Absolute Risk Reduction
+### Relative Risk vs Absolute Risk Reduction
 
-::: {.smaller_caption}
+::: {.smaller_table}
 
 - **RR and ARR answer different questions.**
   - **RR:** what was the proportional difference between groups?
@@ -418,6 +418,35 @@ There are legitimate interpretive concerns that relative measures can overstate 
 - The Risk Ratio is incomplete without context
 - The Absolute Risk Reduction is incomplete without context
 - Where possible, both should be reported with context.
+
+:::
+
+:::
+
+---
+
+## Some Context
+
+
+::: {.smaller3}
+
+[2012 JAMA article on Lifetime Risk and Years Lived Free of Total Cardiovascular Disease](https://jamanetwork.com/journals/jama/fullarticle/1389613)
+
+"At an index age of 45 years, overall lifetime risk for total CVD was **60.3%** (95% CI, 59.3%-61.2%) for men and **55.6%** (95% CI, 54.5%-56.7%) for women."
+
+total CVD events =  fatal and nonfatal coronary heart disease, all forms of stroke, congestive heart failure, and other CVD deaths; USA data
+
+<br>
+
+::: {.fragment}
+
+- baseline lifetime risk of total CVD event:
+
+  - male: 60%
+  - female: 56%
+
+- total CVD event: broader than the outcomes in the saturated-fat meta-analysis.
+- USA average male or female
 
 :::
 
@@ -1264,7 +1293,7 @@ Steen 2025
 
 ### Signal in the Noise
 
-::: {.smaller_table}
+::: {.smaller3}
 
 Even with all the problems, is there any signal in the results? 
 
@@ -1282,19 +1311,12 @@ Even with all the problems, is there any signal in the results?
 
 **With some interpretation**:
 
-- A possible benefit signal appears first where we would expect it: heart attacks and specific cardiovascular events.
+- Possible benefit signal appears first where we would expect it: heart attacks and specific cardiovascular events.
 - If we had longer, cleaner trials, that signal might become clearer in cardiovascular death and eventually all-cause mortality.
 - But these trials are too messy to prove that confidently.
 
 :::
-::: {.fragment}
-[But a reminder, from a 2012 JAMA article on Lifetime Risk and Years Lived Free of Total Cardiovascular Disease](https://jamanetwork.com/journals/jama/fullarticle/1389613)
 
-"At an index age of 45 years, overall lifetime risk for total CVD was **60.3%** (95% CI, 59.3%-61.2%) for men and **55.6%** (95% CI, 54.5%-56.7%) for women."
-
-total CVD events =  fatal and nonfatal coronary heart disease, all forms of stroke, congestive heart failure, and other CVD deaths)
-
-:::
 :::
 
 
