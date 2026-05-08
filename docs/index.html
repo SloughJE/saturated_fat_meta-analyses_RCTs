@@ -1332,6 +1332,87 @@ John | The John &amp; Calvin Podcast
 </section>
 <section class="slide level2">
 
+<h3 id="risk-ratio-vs-absolute-risk-reduction">Risk Ratio vs Absolute Risk Reduction</h3>
+<div class="smaller_caption">
+<ul>
+<li><strong>RR and ARR answer different questions.</strong>
+<ul>
+<li><strong>RR:</strong> what was the proportional difference between groups?</li>
+<li><strong>ARR:</strong> what was the absolute difference between groups over a specific time period?</li>
+</ul></li>
+<li><strong>RR can be taken out of context but so can ARR.</strong>
+<ul>
+<li>RR = 0.85 means the event rate was 15% lower, but that could mean AR: 30% → 25.5%, or 3% → 2.55%.</li>
+<li>ARR: “Only 1.5 percentage point reduction” is incomplete unless we know:
+<ul>
+<li>over how many years, in what baseline-risk population (and all other caveats from source trials)</li>
+</ul></li>
+</ul></li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Neither measure is self-interpreting or assumption-free.
+<ul>
+<li>RR without baseline risk can overstate practical importance.</li>
+<li>ARR without time horizon, population risk, and scale can understate practical or public health importance.
+<ul>
+<li>A 5-year ARR is not the same as a 10-year, 30-year, or lifetime ARR.</li>
+<li>probably not a safe assumption that it increases linearly over time.</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>RR is a proportional contrast: <code>RR = intervention risk / control risk</code></li>
+<li>ARR is an absolute contrast: <code>ARR = control risk - intervention risk</code></li>
+<li>When translating RR to ARR: <code>ARR = baseline risk × (1 - RR)</code></li>
+<li>For a specified RR, ARR changes when baseline risk changes.</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="report-the-arr">Report the ARR!</h3>
+<div class="smaller_caption">
+<ul>
+<li>RCT metrics: RR, RRR, ARR, NNT</li>
+<li>Meta-analyses: usually emphasize pooled RR / OR / HR</li>
+<li>ARR is less often pooled directly because:
+<ul>
+<li>ARR depends strongly on the baseline risk in the control group</li>
+<li>The same RR can imply very different ARRs in low- vs. high-risk populations</li>
+<li>Trial populations often differ in baseline risk, making a single pooled ARR harder to interpret</li>
+</ul></li>
+<li>Common meta-analysis approach:
+<ul>
+<li>Pool the relative effect, such as RR or OR</li>
+<li>Apply it to a clinically relevant baseline risk</li>
+<li>Estimate ARR and NNT from that baseline risk</li>
+</ul></li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Steen used another meta-analysis for the baseline risks (CTT, a large 2012 statin-trial meta-analysis)</li>
+<li>CTT supplied 5-year baseline risks for 4 groups from low to high</li>
+</ul>
+</div>
+<div class="fragment">
+<p>There are legitimate statistical reasons that relative measures like RR, OR, and HR are often emphasized in meta-analyses.</p>
+<p>There are legitimate interpretive concerns that relative measures can overstate the practical significance of the intervention, especially for individuals at low baseline risk.</p>
+</div>
+<div class="fragment">
+<ul>
+<li>The Risk Ratio is incomplete without context</li>
+<li>The Absolute Risk Reduction is incomplete without context</li>
+<li>Where possible, both should be reported with context.</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
 <h3 id="meta-analyses-on-rcts-sfa-reduction">Meta-analyses on RCTs: SFA Reduction</h3>
 <div class="smaller_large_table">
 <p><br></p>
@@ -2667,30 +2748,30 @@ display:block!important;
 </section>
 <section class="slide level2">
 
-<h3 id="ci-precision-and-overconfidence">CI Precision and Overconfidence</h3>
+<h3 id="overconfidence-from-ci-precision">Overconfidence from CI Precision</h3>
 <div class="smaller_table">
 <ul>
 <li><p>CI for a study’s RR is based on the event counts and the <strong>number of people in each group</strong>.</p></li>
-<li><p>If a trial has high turnover or short exposure, the CI can still look statistically precise.</p></li>
-<li><p>A tight CI may overstate the precision of a trial for long-term saturated fat reduction.</p></li>
+<li><p>If the full randomized cohort is used and a trial has high turnover / dropout rate or short exposure, the CI can appear more statistically precise than warranted</p></li>
 <li><p>In a meta-analysis, that same tight CI can also give the trial more weight.</p>
 <ul>
 <li>so the trial may appear <strong>too precise on its own</strong> and <strong>overweighted in the pooled estimate</strong></li>
 </ul></li>
 </ul>
 <div class="fragment">
-<p>Minnesota Example:</p>
+<p><strong>Minnesota Example</strong>:</p>
 <ul>
 <li>Described as a <strong>4.5-year trial</strong>, with <strong>4541 intervention vs 4516 control</strong></li>
 <li>Open enrollment + high turnover + intermittent exposure meant much shorter avg exposure of 384 days</li>
-<li>Most meta-analyses the full randomized cohort counts to calculate the CI</li>
+<li>Most meta-analyses use the <strong>full randomized cohort counts</strong> to calculate the CI</li>
 <li>This gives Minnesota tight CI and a high weight in a meta-analysis</li>
-<li>The CI may overstate precision if read as evidence from a <strong>4.5-year saturated-fat-reduction trial</strong>.</li>
+<li>May overstate precision if read as evidence from a <strong>4.5-year saturated-fat-reduction trial</strong>.</li>
+<li>original trial did report rates per 1000 person-years in its tables</li>
 </ul>
 </div>
 <div class="fragment">
 <ul>
-<li><p>For a long-term diet question, the relevant information is closer to <strong>time actually spent on the assigned diet</strong>, not only the number randomized.</p></li>
+<li><p>For a long-term diet question, <strong>time actually spent on the assigned diet</strong> is very important, not only the number randomized.</p></li>
 <li><p>Can partly address this with time-to-event, person-time, adherence-adjusted, and dropout sensitivity analyses</p>
 <ul>
 <li>these require much more detailed follow-up records, repeated exposure/adherence data, and more complex modeling assumptions</li>
@@ -2702,8 +2783,9 @@ display:block!important;
 </section>
 <section class="slide level2">
 
-<h3 id="short-trial-duration-and-overconfidence">Short Trial Duration and Overconfidence</h3>
+<h3 id="overconfidence-from-event-counts">Overconfidence from Event Counts</h3>
 <div class="smaller2">
+<p>Short Trial Duration</p>
 <p>Example:</p>
 <div class="fragment">
 <ul>
@@ -2843,6 +2925,10 @@ display:block!important;
 </ul></li>
 <li><p><strong>Consistency matters</strong>: evidence is stronger when different studies, outcomes, and methods point in the same direction</p></li>
 <li><p><strong>“No clear effect” is not the same as “proof of no effect”</strong>: weak, short, or messy studies may fail to detect a real effect</p></li>
+<li><p><strong>Effect size needs context</strong>:</p>
+<ul>
+<li>RR helps compare effects across studies; ARR shows practical impact. Both need context.</li>
+</ul></li>
 <li><p><strong>Threshold-based conclusions are fragile</strong>: small changes in data, assumptions, and parameters can flip results across arbitrary cutoffs (p=0.05, CI crossing 1.0)</p>
 <ul>
 <li>“Significant” vs “not significant” can obscure how uncertain the result actually is.</li>
@@ -2851,12 +2937,7 @@ display:block!important;
 <ul>
 <li>A tighter estimate can still come from messy data or a poorly defined comparison.</li>
 </ul></li>
-<li><p><strong>Meta-analyses are generally stronger evidence</strong> but they cannot fix poor quality trials</p>
-<ul>
-<li>included study quality matters</li>
-<li>inclusion criteria, endpoint definitions, and sensitivity analyses matter</li>
-<li>pooling studies can reduce random error, but not necessarily bias or poor design</li>
-</ul></li>
+<li><p><strong>Meta-analyses are generally stronger evidence</strong> but they cannot fix poor quality trials</p></li>
 <li><p><strong>RCTs are powerful</strong>, but only if the trial actually tests the question well.</p>
 <ul>
 <li>randomization doesn’t fix weak adherence, short exposure, poor tracking, or unclear interventions</li>

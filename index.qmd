@@ -346,6 +346,85 @@ Possible Interpretations:
 
 ---
 
+### Risk Ratio vs Absolute Risk Reduction
+
+::: {.smaller_caption}
+
+- **RR and ARR answer different questions.**
+  - **RR:** what was the proportional difference between groups?
+  - **ARR:** what was the absolute difference between groups over a specific time period?
+
+- **RR can be taken out of context but so can ARR.**
+  - RR = 0.85 means the event rate was 15% lower, but that could mean AR: 30% → 25.5%, or 3% → 2.55%.
+  - ARR: “Only 1.5 percentage point reduction” is incomplete unless we know:
+    - over how many years, in what baseline-risk population (and all other caveats from source trials)
+
+::: {.fragment}
+
+- Neither measure is self-interpreting or assumption-free.
+  - RR without baseline risk can overstate practical importance.
+  - ARR without time horizon, population risk, and scale can understate practical or public health importance.
+    - A 5-year ARR is not the same as a 10-year, 30-year, or lifetime ARR.
+    - probably not a safe assumption that it increases linearly over time.
+
+:::
+
+::: {.fragment}
+
+- RR is a proportional contrast: `RR = intervention risk / control risk`
+- ARR is an absolute contrast: `ARR = control risk - intervention risk`
+- When translating RR to ARR: `ARR = baseline risk × (1 - RR)`
+- For a specified RR, ARR changes when baseline risk changes.
+
+:::
+
+:::
+
+---
+
+### Report the ARR!
+
+::: {.smaller_caption}
+
+- RCT metrics: RR, RRR, ARR, NNT
+- Meta-analyses: usually emphasize pooled RR / OR / HR
+- ARR is less often pooled directly because:
+  - ARR depends strongly on the baseline risk in the control group
+  - The same RR can imply very different ARRs in low- vs. high-risk populations
+  - Trial populations often differ in baseline risk, making a single pooled ARR harder to interpret
+- Common meta-analysis approach:
+  - Pool the relative effect, such as RR or OR
+  - Apply it to a clinically relevant baseline risk
+  - Estimate ARR and NNT from that baseline risk
+  
+::: {.fragment}
+
+- Steen used another meta-analysis for the baseline risks (CTT, a large 2012 statin-trial meta-analysis)
+- CTT supplied 5-year baseline risks for 4 groups from low to high
+
+:::
+
+::: {.fragment}
+
+There are legitimate statistical reasons that relative measures like RR, OR, and HR are often emphasized in meta-analyses.
+
+There are legitimate interpretive concerns that relative measures can overstate the practical significance of the intervention, especially for individuals at low baseline risk.
+
+:::
+
+::: {.fragment}
+
+
+- The Risk Ratio is incomplete without context
+- The Absolute Risk Reduction is incomplete without context
+- Where possible, both should be reported with context.
+
+:::
+
+:::
+
+---
+
 ### Meta-analyses on RCTs: SFA Reduction
 
 ::: {.smaller_large_table}
@@ -1058,33 +1137,33 @@ However, these trials are not useless.
 
 ---
 
-### CI Precision and Overconfidence
+### Overconfidence from CI Precision
 
 
 ::: {.smaller_table}
 
 
 - CI for a study’s RR is based on the event counts and the **number of people in each group**.
-- If a trial has high turnover or short exposure, the CI can still look statistically precise.
+- If the full randomized cohort is used and a trial has high turnover / dropout rate or short exposure, the CI can appear more statistically precise than warranted
 
-- A tight CI may overstate the precision of a trial for long-term saturated fat reduction.
 - In a meta-analysis, that same tight CI can also give the trial more weight.
   - so the trial may appear **too precise on its own** and **overweighted in the pooled estimate**
 
 
 ::: {.fragment}
 
-Minnesota Example:
+**Minnesota Example**:
 
 - Described as a **4.5-year trial**, with **4541 intervention vs 4516 control**
 - Open enrollment + high turnover + intermittent exposure meant much shorter avg exposure of 384 days
-- Most meta-analyses the full randomized cohort counts to calculate the CI
+- Most meta-analyses use the **full randomized cohort counts** to calculate the CI 
 - This gives Minnesota tight CI and a high weight in a meta-analysis
-- The CI may overstate precision if read as evidence from a **4.5-year saturated-fat-reduction trial**.
+- May overstate precision if read as evidence from a **4.5-year saturated-fat-reduction trial**.
+- original trial did report rates per 1000 person-years in its tables
 
 :::
 ::: {.fragment}
-- For a long-term diet question, the relevant information is closer to **time actually spent on the assigned diet**, not only the number randomized.
+- For a long-term diet question, **time actually spent on the assigned diet** is very important, not only the number randomized.
 
 - Can partly address this with time-to-event, person-time, adherence-adjusted, and dropout sensitivity analyses
   - these require much more detailed follow-up records, repeated exposure/adherence data, and more complex modeling assumptions
@@ -1095,9 +1174,11 @@ Minnesota Example:
 
 ---
 
-### Short Trial Duration and Overconfidence
+### Overconfidence from Event Counts
 
 ::: {.smaller2}
+
+Short Trial Duration
 
 Example:
 
@@ -1281,18 +1362,18 @@ Where do we go from here?
 - **Consistency matters**: evidence is stronger when different studies, outcomes, and methods point in the same direction
 
 - **“No clear effect” is not the same as “proof of no effect”**: weak, short, or messy studies may fail to detect a real effect
-  
-- **Threshold-based conclusions are fragile**: small changes in data, assumptions, and parameters can flip results across arbitrary cutoffs (p=0.05, CI crossing 1.0)
+
+- **Effect size needs context**:
+  - RR helps compare effects across studies; ARR shows practical impact. Both need context.
+
+- **Threshold-based conclusions can be fragile**: small changes in data, assumptions, and parameters can flip results across arbitrary cutoffs (p=0.05, CI crossing 1.0)
   - “Significant” vs “not significant” can obscure how uncertain the result actually is.
 
 - **More statistical precision does not necessarily mean better evidence**:
   - A tighter estimate can still come from messy data or a poorly defined comparison.
 
 - **Meta-analyses are generally stronger evidence** but they cannot fix poor quality trials
-  - included study quality matters
-  - inclusion criteria, endpoint definitions, and sensitivity analyses matter
-  - pooling studies can reduce random error, but not necessarily bias or poor design
-  
+
 - **RCTs are powerful**, but only if the trial actually tests the question well.
   - randomization doesn't fix weak adherence, short exposure, poor tracking, or unclear interventions
   - diet and lifestyle interventions are rarely one-variable experiments
