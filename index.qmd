@@ -1410,4 +1410,3 @@ Where do we go from here?
   
 :::
 
-# Recognize when evidence is strong and when it’s uncertain
