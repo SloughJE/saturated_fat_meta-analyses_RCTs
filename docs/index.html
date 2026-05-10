@@ -1364,10 +1364,9 @@ John | The John &amp; Calvin Podcast
 </div>
 <div class="fragment">
 <ul>
-<li>RR is a proportional contrast: <code>RR = intervention risk / control risk</code></li>
-<li>ARR is an absolute contrast: <code>ARR = control risk - intervention risk</code></li>
-<li>When translating RR to ARR: <code>ARR = baseline risk × (1 - RR)</code></li>
-<li>For a specified RR, ARR changes when baseline risk changes.</li>
+<li>The Risk Ratio is incomplete without context</li>
+<li>The Absolute Risk Reduction is incomplete without context</li>
+<li>Where possible, both should be reported with context.</li>
 </ul>
 </div>
 </div>
@@ -1387,8 +1386,7 @@ John | The John &amp; Calvin Podcast
 </ul></li>
 <li>Common meta-analysis approach:
 <ul>
-<li>Pool the relative effect, such as RR or OR</li>
-<li>Apply it to a clinically relevant baseline risk</li>
+<li>Pool the relative effect, such as RR or OR and apply it to a clinically relevant baseline risk</li>
 <li>Estimate ARR and NNT from that baseline risk</li>
 </ul></li>
 </ul>
@@ -1399,34 +1397,37 @@ John | The John &amp; Calvin Podcast
 </ul>
 </div>
 <div class="fragment">
-<p>There are legitimate statistical reasons that relative measures like RR, OR, and HR are often emphasized in meta-analyses.</p>
-<p>There are legitimate interpretive concerns that relative measures can overstate the practical significance of the intervention, especially for individuals at low baseline risk.</p>
-</div>
-<div class="fragment">
-<ul>
-<li>The Risk Ratio is incomplete without context</li>
-<li>The Absolute Risk Reduction is incomplete without context</li>
-<li>Where possible, both should be reported with context.</li>
-</ul>
+<p><strong>There are legitimate statistical reasons that relative measures like RR, OR, and HR are often emphasized in meta-analyses.</strong></p>
+<p><strong>There are legitimate interpretive concerns that relative measures can overstate the practical significance of the intervention, especially for individuals at low baseline risk.</strong></p>
+<p><strong>There are legitimate interpretive reasons to present absolute measures like ARR, especially because they show the practical size of the effect in a given population.</strong></p>
+<p><strong>There are legitimate interpretive concerns that absolute measures can understate a real effect when baseline risk is low, follow-up is short, or outcomes are rare.</strong></p>
 </div>
 </div>
 </section>
 <section id="some-context" class="slide level2">
 <h2>Some Context</h2>
-<div class="smaller3">
+<div class="smaller_table">
 <p><a href="https://jamanetwork.com/journals/jama/fullarticle/1389613">2012 JAMA article on Lifetime Risk and Years Lived Free of Total Cardiovascular Disease</a></p>
+<ul>
+<li>Pooled survival analysis from <strong>5 NHLBI-funded community cohorts</strong>
+<ul>
+<li><strong>Framingham Heart Study, Framingham Offspring Study, ARIC, Chicago Heart Association Detection Project, and Cardiovascular Health Study</strong></li>
+</ul></li>
+<li>Up to <strong>905,115 person-years</strong> of follow-up, <strong>1964–2008</strong></li>
+<li>Participants were <strong>free of CVD at baseline</strong></li>
+<li>Community-based U.S. cohorts, not a nationally representative sample</li>
+<li>Likely somewhat healthier/selected than the general U.S. population</li>
+</ul>
 <p>“At an index age of 45 years, overall lifetime risk for total CVD was <strong>60.3%</strong> (95% CI, 59.3%-61.2%) for men and <strong>55.6%</strong> (95% CI, 54.5%-56.7%) for women.”</p>
 <p>total CVD events = fatal and nonfatal coronary heart disease, all forms of stroke, congestive heart failure, and other CVD deaths; USA data</p>
-<p><br></p>
 <div class="fragment">
 <ul>
 <li><p>baseline lifetime risk of total CVD event:</p>
 <ul>
-<li>male: 60%</li>
-<li>female: 56%</li>
+<li><strong>male: 60%</strong></li>
+<li><strong>female: 56%</strong></li>
 </ul></li>
 <li><p>total CVD event: broader than the outcomes in the saturated-fat meta-analysis.</p></li>
-<li><p>USA average male or female</p></li>
 </ul>
 </div>
 </div>
@@ -2939,30 +2940,35 @@ display:block!important;
 <h3 id="what-have-we-learned">What Have We Learned</h3>
 <div class="smaller_table">
 <ul>
-<li><p><strong>The question defines the answer</strong>: if the question is vague or broad, the evidence will be too.</p>
+<li><strong>Diet trials are not simple one-variable experiments.</strong>
 <ul>
-<li>Precision in the question is required for a valid test.</li>
+<li>People change foods, not isolated nutrients; replacement food or nutrient matters.</li>
+<li>Adherence, exposure time, and tracking of actual intake matter.</li>
 </ul></li>
-<li><p><strong>Consistency matters</strong>: evidence is stronger when different studies, outcomes, and methods point in the same direction</p></li>
-<li><p><strong>“No clear effect” is not the same as “proof of no effect”</strong>: weak, short, or messy studies may fail to detect a real effect</p></li>
-<li><p><strong>Effect size needs context</strong>:</p>
+<li><strong>Failing to find an effect is not the same as proving there is none.</strong>
 <ul>
-<li>RR helps compare effects across studies; ARR shows practical impact. Both need context.</li>
+<li>“We did not detect an effect” is not the same as “we showed there is no effect.”</li>
+<li>A study can miss a real effect if the signal is small, delayed, inconsistently measured, or buried in noise. This does not prove there isn’t one.</li>
 </ul></li>
-<li><p><strong>Threshold-based conclusions can be fragile</strong>: small changes in data, assumptions, and parameters can flip results across arbitrary cutoffs (p=0.05, CI crossing 1.0)</p>
+<li><strong>No difference in mortality rates does not necessarily prove no real effect.</strong>
 <ul>
-<li>“Significant” vs “not significant” can obscure how uncertain the result actually is.</li>
+<li>A short trial may not show fewer deaths, even if the intervention reduces disease risk.</li>
+<li>Effects often show up first in earlier disease outcomes.</li>
+<li>The rarer and farther-downstream the outcome, the more time and data are needed.</li>
 </ul></li>
-<li><p><strong>More statistical precision does not necessarily mean better evidence</strong>:</p>
+<li><strong>RR and ARR both need context.</strong>
 <ul>
-<li>A tighter estimate can still come from messy data or a poorly defined comparison.</li>
+<li>RR can overstate practical importance.</li>
+<li>ARR can understate a real effect when baseline risk is low or follow-up is short.</li>
 </ul></li>
-<li><p><strong>Meta-analyses are generally stronger evidence</strong> but they cannot fix poor quality trials</p></li>
-<li><p><strong>RCTs are powerful</strong>, but only if the trial actually tests the question well.</p>
+<li><strong>“Significant” vs “not significant” can oversimplify interpretation.</strong>
 <ul>
-<li>randomization doesn’t fix weak adherence, short exposure, poor tracking, or unclear interventions</li>
-<li>diet and lifestyle interventions are rarely one-variable experiments</li>
-<li>outcomes that matter most can be the hardest to study well.</li>
+<li>Two results can look almost the same, but get different labels because one barely crosses a threshold.</li>
+</ul></li>
+<li><strong>Meta-analyses are usually stronger evidence, but they cannot fix poor studies.</strong>
+<ul>
+<li>Pooling trials can create a tighter estimate.</li>
+<li>But if the underlying trials are poor quality, that precision can create overconfidence.</li>
 </ul></li>
 </ul>
 </div>

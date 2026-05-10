@@ -371,10 +371,10 @@ Possible Interpretations:
 
 ::: {.fragment}
 
-- RR is a proportional contrast: `RR = intervention risk / control risk`
-- ARR is an absolute contrast: `ARR = control risk - intervention risk`
-- When translating RR to ARR: `ARR = baseline risk × (1 - RR)`
-- For a specified RR, ARR changes when baseline risk changes.
+
+- The Risk Ratio is incomplete without context
+- The Absolute Risk Reduction is incomplete without context
+- Where possible, both should be reported with context.
 
 :::
 
@@ -393,8 +393,7 @@ Possible Interpretations:
   - The same RR can imply very different ARRs in low- vs. high-risk populations
   - Trial populations often differ in baseline risk, making a single pooled ARR harder to interpret
 - Common meta-analysis approach:
-  - Pool the relative effect, such as RR or OR
-  - Apply it to a clinically relevant baseline risk
+  - Pool the relative effect, such as RR or OR and apply it to a clinically relevant baseline risk
   - Estimate ARR and NNT from that baseline risk
   
 ::: {.fragment}
@@ -406,20 +405,16 @@ Possible Interpretations:
 
 ::: {.fragment}
 
-There are legitimate statistical reasons that relative measures like RR, OR, and HR are often emphasized in meta-analyses.
+**There are legitimate statistical reasons that relative measures like RR, OR, and HR are often emphasized in meta-analyses.**
 
-There are legitimate interpretive concerns that relative measures can overstate the practical significance of the intervention, especially for individuals at low baseline risk.
+**There are legitimate interpretive concerns that relative measures can overstate the practical significance of the intervention, especially for individuals at low baseline risk.**
 
-:::
+**There are legitimate interpretive reasons to present absolute measures like ARR, especially because they show the practical size of the effect in a given population.**
 
-::: {.fragment}
-
-
-- The Risk Ratio is incomplete without context
-- The Absolute Risk Reduction is incomplete without context
-- Where possible, both should be reported with context.
+**There are legitimate interpretive concerns that absolute measures can understate a real effect when baseline risk is low, follow-up is short, or outcomes are rare.**
 
 :::
+
 
 :::
 
@@ -428,25 +423,30 @@ There are legitimate interpretive concerns that relative measures can overstate 
 ## Some Context
 
 
-::: {.smaller3}
+::: {.smaller_table}
 
 [2012 JAMA article on Lifetime Risk and Years Lived Free of Total Cardiovascular Disease](https://jamanetwork.com/journals/jama/fullarticle/1389613)
+
+- Pooled survival analysis from **5 NHLBI-funded community cohorts**
+  - **Framingham Heart Study, Framingham Offspring Study, ARIC, Chicago Heart Association Detection Project, and Cardiovascular Health Study**
+- Up to **905,115 person-years** of follow-up, **1964–2008**
+- Participants were **free of CVD at baseline**
+- Community-based U.S. cohorts, not a nationally representative sample
+- Likely somewhat healthier/selected than the general U.S. population
 
 "At an index age of 45 years, overall lifetime risk for total CVD was **60.3%** (95% CI, 59.3%-61.2%) for men and **55.6%** (95% CI, 54.5%-56.7%) for women."
 
 total CVD events =  fatal and nonfatal coronary heart disease, all forms of stroke, congestive heart failure, and other CVD deaths; USA data
 
-<br>
 
 ::: {.fragment}
 
 - baseline lifetime risk of total CVD event:
 
-  - male: 60%
-  - female: 56%
+  - **male: 60%**
+  - **female: 56%**
 
 - total CVD event: broader than the outcomes in the saturated-fat meta-analysis.
-- USA average male or female
 
 :::
 
@@ -1384,29 +1384,30 @@ Where do we go from here?
 
 ::: {.smaller_table}
 
-- **The question defines the answer**: if the question is vague or broad, the evidence will be too.
-  - Precision in the question is required for a valid test.
+- **Diet trials are not simple one-variable experiments.**
+  - People change foods, not isolated nutrients; replacement food or nutrient matters.
+  - Adherence, exposure time, and tracking of actual intake matter.
+  
+- **Failing to find an effect is not the same as proving there is none.**
+  - “We did not detect an effect” is not the same as “we showed there is no effect.”
+  - A study can miss a real effect if the signal is small, delayed, inconsistently measured, or buried in noise. This does not prove there isn't one.
+  
+- **No difference in mortality rates does not necessarily prove no real effect.**
+  - A short trial may not show fewer deaths, even if the intervention reduces disease risk.
+  - Effects often show up first in earlier disease outcomes.
+  - The rarer and farther-downstream the outcome, the more time and data are needed.
+  
+- **RR and ARR both need context.**
+  - RR can overstate practical importance.
+  - ARR can understate a real effect when baseline risk is low or follow-up is short.
 
-- **Consistency matters**: evidence is stronger when different studies, outcomes, and methods point in the same direction
+- **“Significant” vs “not significant” can oversimplify interpretation.**
+  - Two results can look almost the same, but get different labels because one barely crosses a threshold.
 
-- **“No clear effect” is not the same as “proof of no effect”**: weak, short, or messy studies may fail to detect a real effect
-
-- **Effect size needs context**:
-  - RR helps compare effects across studies; ARR shows practical impact. Both need context.
-
-- **Threshold-based conclusions can be fragile**: small changes in data, assumptions, and parameters can flip results across arbitrary cutoffs (p=0.05, CI crossing 1.0)
-  - “Significant” vs “not significant” can obscure how uncertain the result actually is.
-
-- **More statistical precision does not necessarily mean better evidence**:
-  - A tighter estimate can still come from messy data or a poorly defined comparison.
-
-- **Meta-analyses are generally stronger evidence** but they cannot fix poor quality trials
-
-- **RCTs are powerful**, but only if the trial actually tests the question well.
-  - randomization doesn't fix weak adherence, short exposure, poor tracking, or unclear interventions
-  - diet and lifestyle interventions are rarely one-variable experiments
-  - outcomes that matter most can be the hardest to study well.
-
+- **Meta-analyses are usually stronger evidence, but they cannot fix poor studies.**
+  - Pooling trials can create a tighter estimate.
+  - But if the underlying trials are poor quality, that precision can create overconfidence.
+  
 :::
 
 # Recognize when evidence is strong and when it’s uncertain
