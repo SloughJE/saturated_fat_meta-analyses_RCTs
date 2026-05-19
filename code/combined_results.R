@@ -235,7 +235,8 @@ summary_tbl <- make_summary_chart_data(
   steen_tau  = "REML"
 )
 
-
+summary_tbl_overall = summary_tbl %>%
+  filter(group_label == "Overall")
 
 plot_summary_compact <- function(summary_tbl,
                                  x_display_min = 0.70,
