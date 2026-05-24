@@ -366,6 +366,7 @@ Possible Interpretations:
   - ARR without time horizon, population risk, and scale can understate practical or public health importance.
     - A 5-year ARR is not the same as a 10-year, 30-year, or lifetime ARR.
     - probably not a safe assumption that it increases linearly over time.
+    - which population is the baseline risk from
 
 :::
 
@@ -407,11 +408,11 @@ Possible Interpretations:
 
 **There are legitimate statistical reasons that relative measures like RR, OR, and HR are often emphasized in meta-analyses.**
 
-**There are legitimate interpretive concerns that relative measures can overstate the practical significance of the intervention, especially for individuals at low baseline risk.**
+**There are legitimate interpretive concerns that relative measures can exaggerate the practical significance of the intervention, especially for individuals at low baseline risk.**
 
 **There are legitimate interpretive reasons to present absolute measures like ARR, especially because they show the practical size of the effect in a given population.**
 
-**There are legitimate interpretive concerns that absolute measures can understate a real effect when baseline risk is low, follow-up is short, or outcomes are rare.**
+**There are legitimate interpretive concerns that absolute measures can minimize a real effect when events are low, follow-up is short, or outcomes are rare.**
 
 :::
 
@@ -694,7 +695,7 @@ How to construct the RCT to answer our question?
 :::
 ::: {.fragment}
 
-- mean duration of time on the diets was **384 days**, with 1568 subjects consuming the diet for over 2 years
+- mean duration of time on the diets was **384 days**
 - For the entire study population, no differences between the treatment and control groups were observed for cardiovascular events, cardiovascular deaths, or total mortality.
 
 :::
@@ -867,7 +868,7 @@ Result: "Survival was slightly better in the second group." (high sat fat) (show
 
 ### Sydney Diet Heart Study, Problems
 
-::: {.smaller_table}
+::: {.smaller_caption}
 
 
 - Secondary prevention population:
@@ -880,21 +881,24 @@ Result: "Survival was slightly better in the second group." (high sat fat) (show
 
 - diet exposure not tightly controlled:
   - diet assessed by interview + food logs; assessed 3× in year 1, then 2× yearly
-
+  - free-living dietary intervention
+  
 - control group contamination:
   - allowed polyunsaturated margarine instead of butter
   - control group also changed diet in the intervention direction
 
-- lower saturated fat ~9.8% vs 13.5% of calories (small reduction?)
+- Substantial increase in linoleic acid, with SFA reduced to ~9.3% of energy in the intervention group vs ~13.5% in controls; high-LA replacement rather than modest SFA reduction.
 - safflower oil / safflower-oil margarine emphasized in intervention diet
 
 - diet separation was weaker than intended; considerable within-group variation and overlap between groups
   
-- historical food environment (trans-fats)
-- prognosis was strongly driven by baseline coronary / myocardial disease severity
+- historical food environment, **trans-fats**
+- prognosis was strongly driven by baseline coronary / myocardial disease severity, results may not generalize
 
 - relatively small sample size, especially for hard endpoints
 - "Both the number of subjects and the duration of the study may have been insufficient."
+
+Small, narrow population, atypical intervention with trans-fats
 
 :::
 
@@ -980,7 +984,7 @@ Main results:
 
 ### LA Veterans Trial, Problems
 
-::: {.smaller_table}
+::: {.smaller_caption}
 
 - Institutional trial, but only partial diet control:
   - overall adherence: **49% intervention vs 56% control**
@@ -1007,7 +1011,7 @@ Main results:
 
 - historical food environment: hydrogenated shortenings / margarine-era trans-fat exposure
 
-- nonfatal event ascertainment may have been weaker when men were away from the center:
+- nonfatal event ascertainment may have been weaker when men were away from the center
 
 - relatively small sample size for hard endpoints: 422 control / 424 intervention (regardless of withdrawals)
 
@@ -1184,11 +1188,10 @@ However, these trials are not useless.
 **Minnesota Example**:
 
 - Described as a **4.5-year trial**, with **4541 intervention vs 4516 control**
-- Open enrollment + high turnover + intermittent exposure meant much shorter avg exposure of 384 days
+- but open enrollment + high turnover + intermittent exposure meant much shorter avg exposure of 384 days
 - Most meta-analyses use the **full randomized cohort counts** to calculate the CI 
 - This gives Minnesota tight CI and a high weight in a meta-analysis
 - May overstate precision if read as evidence from a **4.5-year saturated-fat-reduction trial**.
-- original trial did report rates per 1000 person-years in its tables
 
 :::
 ::: {.fragment}
@@ -1252,7 +1255,7 @@ Which is more informative?
 - Meta-analyses can increase precision and statistical power.
 - But they cannot fix major flaws in the original studies.
 - They cannot make a poorly defined intervention into a well-defined one.
-- They cannot make heterogeneous trials answer a single clean question.
+- They cannot make dissimilar trials answer a single clean question.
 - They cannot fully solve sparse, inconsistent, or selectively reported outcomes.
 
 :::
@@ -1382,19 +1385,20 @@ Where do we go from here?
 
 ### What Have We Learned
 
-::: {.smaller_table}
+::: {.smaller_caption}
 
 - **Diet trials are not simple one-variable experiments.**
   - People change foods, not isolated nutrients; replacement food or nutrient matters.
   - Adherence, exposure time, and tracking of actual intake matter.
   
-- **Failing to find an effect is not the same as proving there is none.**
+- **Failure to detect an effect is not the same as proving there is no effect.**
   - “We did not detect an effect” is not the same as “we showed there is no effect.”
-  - A study can miss a real effect if the signal is small, delayed, inconsistently measured, or buried in noise. This does not prove there isn't one.
+  - A trial or meta-analysis can miss a real effect if follow-up is short, outcomes are rare, endpoints are inconsistently measured, or the effect is small or delayed.
+  - This is especially true for mortality, which is often a late and low-frequency outcome.
   
-- **No difference in mortality rates does not necessarily prove no real effect.**
-  - A short trial may not show fewer deaths, even if the intervention reduces disease risk.
-  - Effects often show up first in earlier disease outcomes.
+- **Endpoint choice strongly shapes the conclusion.**
+  - An intervention may affect earlier disease outcomes, risk factors, or nonfatal events without clearly changing mortality during the study period.
+  - Mortality is important, but it is not always the most sensitive endpoint for detecting disease-risk changes.
   - The rarer and farther-downstream the outcome, the more time and data are needed.
   
 - **RR and ARR both need context.**

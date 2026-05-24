@@ -308,10 +308,10 @@ dat_yamada_mi_no_burr <- relabel_yamada_studies(dat_yamada_mi_no_burr)
 dat_yamada_mi_dart_nfmi <- relabel_yamada_studies(dat_yamada_mi_dart_nfmi)
 
 
-models <- lapply(datasets, fit_or)
+# models <- lapply(datasets, fit_or)
 
 # summaries
-lapply(models, summary)
+# lapply(models, summary)
 
 ############
 
