@@ -632,7 +632,6 @@ How to construct the RCT to answer our question?
 
 
 ::: {.smaller3}
-::: {.fragment}
 
 - a very large randomized trial in generally healthy adults
 - long follow-up, > 10 years
@@ -647,7 +646,7 @@ How to construct the RCT to answer our question?
 - secondary outcomes: stroke, atherosclerosis, and related cardiovascular events
 - measure everything we can
 
-:::
+
 ::: {.fragment}
 
 - The cleaner the trial, the less it looks like real life (and more unethical). 
@@ -733,7 +732,6 @@ Show Fig 6. Life-table graph
   - lower saturated fat, lower dietary cholesterol, much higher PUFA
   - very high use of corn oil / corn-oil margarine in intervention diet
 
-- lack of data on smoking status, weight loss / baseline disease status, other dietary changes
 - initial stratification included smoking, weight, and ECG evidence of prior MI,
   - but later admissions were stratified only by age and sex
   
@@ -1320,6 +1318,7 @@ Even with all the problems, is there any signal in the results?
 
 :::
 
+
 :::
 
 
@@ -1341,6 +1340,8 @@ Even with all the problems, is there any signal in the results?
  
 
 - More meta-analyses on these RCTs probably won't help
+
+- Any conclusion made from these RCTs and meta-analyses, has to be of low-certainty.
 
 
 :::
